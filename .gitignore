@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+logs/
+*.log
+log.txt
+temp_log.txt
+streamlit.log
+
+# Data and results
+results/
+temp/
+output/
+*.mp4
+*.jpg
+*.png
+*.gif
+*.avi
+*.mov
+inputs/*/
+weights/
+
+# MinIO credentials
+minio_credentials.json
+
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual Environment
+venv/
+ENV/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+login_config.json
+slice_for_video/
+origin_vedio/
+output_mask/
+*/__pycache__/
+RTL-Inpainting/imgs/
+RTL-Inpainting/output/
+RTL-Inpainting/input_mask/
+
+config.yaml
