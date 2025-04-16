@@ -1,152 +1,152 @@
+# ProPainter视频处理项目
 
-## Dependencies and Installation
+## 项目介绍
 
-1. Clone Repo
-
-   ```bash
-   git clone https://github.com/sczhou/ProPainter.git
-   ```
-
-2. Create Conda Environment and Install Dependencies
-
-   ```bash
-   # create new anaconda env
-   conda create -n propainter python=3.8 -y
-   conda activate propainter
-
-   # install python dependencies
-   pip3 install -r requirements.txt
-   ```
-
-   - CUDA >= 9.2
-   - PyTorch >= 1.7.1
-   - Torchvision >= 0.8.2
-   - Other required packages in `requirements.txt`
+本项目构建了一套完整的视频处理系统，包括视频分析、切片处理、标签管理和知识库存储功能。主要用于汽车视频的智能分析和处理。
 
 ## 项目结构
 
 ```
 ProPainter/
-├── assets/                   # 项目资源文件（图像、GIF等）
 ├── config/                   # 配置文件
-├── configs/                  # ProPainter原始配置
-├── core/                     # ProPainter核心代码
-├── datasets/                 # 数据集处理
-├── inputs/                   # 输入视频和掩码
-├── processors/               # 视频处理器
-├── propainter/               # ProPainter主要实现
-├── RAFT/                     # RAFT光流模型
-├── results/                  # 处理结果输出
-├── scripts/                  # 实用脚本
-├── services/                 # 服务实现
-├── storage/                  # 存储相关代码
-├── utils/                    # 工具函数
-├── web-demos/                # Web演示
-├── weights/                  # 模型权重
-└── RTL-Inpainting/           # RTL-Inpainting模块
+│   └── config.py             # 配置加载和管理类
+├── processors/               # 视频处理相关模块
+│   ├── video_analyzer.py     # 基于OpenAI的视频分析器
+│   ├── video_analyzer_gemini.py # 基于Google Gemini的视频分析器
+│   ├── video_material_cleaner.py # 视频素材清洗工具
+│   ├── video_preprocessor.py # 视频预处理器
+│   └── video_slicer.py       # 视频切片工具
+├── services/                 # 服务组件
+│   └── tagging_service.py    # 视频标签管理服务
+├── storage/                  # 存储相关组件
+│   ├── knowledge_base.py     # 知识库处理模块
+│   └── minio_handler.py      # MinIO对象存储处理
+├── main.py                   # 主程序入口
+├── tagging.py                # 标签处理服务
+├── test_front.py             # 基于Streamlit的前端界面，用于测试视频解析提示词
+├── config.yaml               # 全局配置文件
+└── requirements.txt          # 项目依赖
 ```
-
-## 目录说明
-
-| 目录 | 说明 |
-|------|------|
-| `config/` | 包含项目配置文件 |
-| `processors/` | 视频处理相关模块，包括预处理、切片、分析等 |
-| `storage/` | 包含存储相关代码，如MinIO对象存储和知识库处理 |
-| `services/` | 提供标签服务相关实现 |
-| `propainter/` | ProPainter主要实现，包括预处理、修复等 |
-| `RTL-Inpainting/` | 用于掩码生成和图像修复的RTL-Inpainting模块 |
-
-## 主要文件功能
-
-### 根目录文件
-
-| 文件 | 功能 |
-|------|------|
-| `main.py` | 项目主入口，实现视频处理流程 |
-| `tagging.py` | 视频标签处理服务 |
-| `upload.py` | 上传处理结果到MinIO存储 |
-| `test_front.py` | 测试前端界面，基于Streamlit |
-| `inference_propainter.py` | ProPainter的推理脚本 |
-| `train.py` | ProPainter的训练脚本 |
-| `config.yaml` | 配置文件（含API密钥、存储设置等） |
-
-### config/ 目录
-
-| 文件 | 功能 |
-|------|------|
-| `config.py` | 配置加载和管理类，从YAML文件加载配置 |
-
-### processors/ 目录
-
-| 文件 | 功能 |
-|------|------|
-| `video_preprocessor.py` | 视频预处理，包括帧提取、验证等 |
-| `video_slicer.py` | 视频分割器，基于场景检测将视频分割成片段 |
-| `video_analyzer.py` | 视频分析器，使用OpenAI API分析视频内容 |
-| `video_analyzer_gemini.py` | 使用Google Gemini分析视频内容 |
-| `video_material_cleaner.py` | 视频素材清洗，检测和处理有文字的帧 |
-
-### storage/ 目录
-
-| 文件 | 功能 |
-|------|------|
-| `knowledge_base.py` | 知识库处理，管理视频分析结果存储和检索 |
-| `minio_handler.py` | MinIO对象存储处理，上传下载视频和分析结果 |
-
-### services/ 目录
-
-| 文件 | 功能 |
-|------|------|
-| `tagging_service.py` | 视频标签服务，自动为视频创建和管理标签 |
 
 ## 主要组件说明
 
-### VideoProcessor 类 (main.py)
+### 1. 核心处理组件 (main.py)
 
-主要视频处理协调器，整合各个组件完成视频处理流程：
-- 初始化各组件（preprocessor, slicer, analyzer等）
-- 管理视频处理流程（预处理、切片、分析、存储）
-- 实现批处理和目录监控功能
+`VideoProcessor` 类是整个系统的核心协调器，负责整合各个组件完成完整的视频处理流程：
 
-### 处理器组件
+- 初始化各功能组件(预处理器、切片器、分析器等)
+- 协调完整的视频处理流程(预处理→切片→分析→存储)
+- 支持单视频处理和批量处理
+- 实现目录监控功能，自动处理新增视频
 
-1. **VideoPreprocessor**: 视频预处理
-   - 验证视频
-   - 提取视频帧
-   - 生成掩码
-   - 移除水印
+### 2. 视频处理组件 (processors/)
 
-2. **VideoSlicer**: 视频切片
-   - 使用场景检测切分视频
-   - 支持阈值调整和最小片段长度设置
-   - 输出片段信息和路径
+#### VideoPreprocessor
+视频预处理组件，负责：
+- 验证视频文件完整性
+- 提取视频帧
+- 准备各种输出路径
+- 视频格式转换和调整
 
-3. **VideoAnalyzer/VideoAnalyzerGemini**: 视频内容分析
-   - 抽取视频帧和音频
-   - 调用AI模型分析视频内容
-   - 生成结构化分析结果
+#### VideoSlicer
+视频切片器，基于场景检测将长视频分割为多个短片段：
+- 使用ContentDetector进行场景检测
+- 支持阈值调整和最小片段长度设置
+- 使用ffmpeg切割视频
+- 返回片段信息和路径
 
-4. **VideoMaterialCleaner**: 视频素材清洗
-   - 检测视频中的文字内容
-   - 自动筛选和清理不符合要求的素材
+#### VideoAnalyzer / VideoAnalyzerGemini
+视频内容分析器，分别基于OpenAI和Google Gemini API：
+- 抽取视频关键帧和音频
+- 构建分析提示词
+- 调用AI模型分析视频内容
+- 生成结构化分析结果
 
-### 存储组件
+#### VideoMaterialCleaner
+视频素材清洗工具：
+- 检测视频中的文字内容
+- 筛选符合要求的视频素材
+- 自动归类和存档不符合要求的素材
 
-1. **MinIOHandler**: 对象存储管理
-   - 上传/下载视频文件
-   - 生成访问URL
-   - 确保存储桶和前缀管理
+### 3. 存储组件 (storage/)
 
-2. **KnowledgeBaseHandler**: 知识库处理
-   - 创建和管理数据集
-   - 添加和检索视频分析数据
-   - 支持标签管理和查询
+#### MinIOHandler
+对象存储管理器：
+- 处理视频和分析结果的上传和下载
+- 生成对象访问URL
+- 管理存储桶和前缀
+- 处理重试和错误恢复
 
-### 服务组件
+#### KnowledgeBaseHandler
+知识库处理器：
+- 创建和管理数据集和集合
+- 添加和检索视频分析数据
+- 支持标签管理和查询
+- 实现异步操作和批处理
 
-**TaggingService**: 标签服务
-   - 将目录名称映射为标准化标签
-   - 自动为视频集合添加标签
-   - 管理标签映射关系
+### 4. 服务组件 (services/)
+
+#### TaggingService
+视频标签服务：
+- 目录名称到标准标签的映射
+- 自动为视频集合添加标签
+- 管理标签映射关系
+- LLM辅助识别视频内容类型
+
+## 使用方法
+
+### 环境配置
+
+1. 创建并激活conda环境：
+```bash
+conda create -n propainter python=3.8 -y
+conda activate propainter
+pip install -r requirements.txt
+```
+
+2. 配置config.yaml文件，包括：
+   - API密钥(OpenAI、ZhipuAI等)
+   - 知识库连接信息
+   - MinIO对象存储配置
+   - 视频处理路径配置
+
+### 运行视频处理
+
+运行主程序：
+```bash
+python main.py
+```
+
+此命令将启动视频处理程序，自动监控配置的输入目录，处理新增视频。
+
+### 单独运行标签服务
+
+```bash
+python tagging.py
+```
+
+### 前端测试界面
+
+```bash
+streamlit run test_front.py
+```
+
+## 注意事项
+
+1. 确保config.yaml中的API密钥和存储路径已正确配置
+2. 视频处理需要大量计算资源，尤其是高分辨率视频
+3. 为达到最佳性能，建议使用GPU加速
+
+## 扩展功能
+
+本项目可以通过以下方式扩展：
+
+1. 添加新的视频分析器(实现相同接口)
+2. 扩展标签管理功能
+3. 对接不同的AI模型和知识库
+4. 自定义视频处理流程
+
+## 授权说明
+
+代码和模型仅供非商业用途。
 
