@@ -245,32 +245,6 @@ class VideoMaterialCleaner:
                 failed_videos = json.load(f)
                 self.logger.info(f"处理失败的视频数量: {len(failed_videos)}")
 
-if __name__ == "__main__":
-    config = {
-        "api_config": {
-            "openai_api_key": "sk-u1lDoRu9zddCGt41Ws8v3btypD8e7mDnuek41du7r1joHm5f",
-            "api_base_url": "https://nwxbqdio.cloud.sealos.io/v1/"
-        },
-        "analyse_config": {
-            "model_name": "gemini-1.5-flash",
-            "total_frames": 8,
-            "api_base_url": "https://nwxbqdio.cloud.sealos.io/v1/"
-        },
-        "slice_config": {
-            "output_dir": "/home/jinpeng/slice_for_video/temp",  # 临时目录用于存放切片
-            "temp_dir": "/home/jinpeng/slice_for_video/temp",
-            "min_segment_length": 1,  # 最小片段长度（秒）
-            "threshold": 30,  # 场景切换阈值
-            "detect_threshold": 0.3  # 检测阈值
-        }
-    }
-    
-    # 输入文件夹列表
-    input_directories = [
-        "/home/jinpeng/slice_for_video/video_output/slice/理想L7_安全性测试",
-        "/home/jinpeng/slice_for_video/video_output/slice/理想L7_360/理想L7_360°全景影像",
-        "/home/jinpeng/slice_for_video/video_output/slice/理想L7",
-        "/home/jinpeng/slice_for_video/video_output/slice/理想L6"
 
 
 
@@ -278,12 +252,4 @@ if __name__ == "__main__":
 
 
 
-    ]
-    
-    try:
-        cleaner = VideoMaterialCleaner(config)
-        cleaner.process_directories(input_directories)
-        
-    except Exception as e:
-        print(f"程序执行出错: {str(e)}")
-        raise
+

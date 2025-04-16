@@ -216,37 +216,3 @@ class TaggingService:
             await self.close()
 
 
-async def main():
-    """主函数"""
-    # 设置日志
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-    )
-    logger = logging.getLogger(__name__)
-
-    try:
-        # 初始化配置
-        config = Config()
-        
-        # 创建知识库处理器
-        kb_handler = KnowledgeBaseHandler(config)
-        #analyzer = VideoAnalyzer(config)
-        async with kb_handler:  # 使用异步上下文管理器
-            # 创建标签服务
-            tagging_service = TaggingService(config, kb_handler)
-            
-            # 设置基础路径
-            base_path = "/home/jinpeng/slice_for_video/video_input"
-            
-            # 运行服务
-            logger.info(f"开始处理目录: {base_path}")
-            await tagging_service.run(base_path)
-            logger.info("处理完成")
-
-    except Exception as e:
-        logger.error(f"程序执行出错: {str(e)}")
-        raise
-
-if __name__ == "__main__":
-    asyncio.run(main())
