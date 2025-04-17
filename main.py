@@ -96,50 +96,9 @@ class VideoProcessor:
         }
 
         try:
-            try:
-                file_extension = Path(video_path).suffix
-                
-                # 创建新的文件名
-                new_video_name = f"{video_uuid}{file_extension}"
-                new_video_path = os.path.join(os.path.dirname(video_path), new_video_name)
-                
-                # 检查文件是否存在
-                if os.path.exists(new_video_path):
-                    raise FileExistsError(f"目标文件已存在: {new_video_path}")
-                    
-                # 检查源文件是否存在
-                if not os.path.exists(video_path):
-                    raise FileNotFoundError(f"源文件不存在: {video_path}")
-                    
-                # 检查写入权限
-                if not os.access(os.path.dirname(new_video_path), os.W_OK):
-                    raise PermissionError(f"没有写入权限: {new_video_path}")
-                
-                # 重命名文件
-                os.rename(video_path, new_video_path)
-            except FileExistsError as e:
-                self.logger.error(f"重命名失败 - 文件已存在: {str(e)}")
-                # 生成一个新的UUID重试
-                new_video_name = f"{str(uuid.uuid4())}{file_extension}"
-                new_video_path = os.path.join(os.path.dirname(video_path), new_video_name)
-                os.rename(video_path, new_video_path)
-            except FileNotFoundError as e:
-                self.logger.error(f"重命名失败 - 文件不存在: {str(e)}")
-                raise
-            except PermissionError as e:
-                self.logger.error(f"重命名失败 - 权限不足: {str(e)}")
-                raise
-            except OSError as e:
-                self.logger.error(f"重命名失败 - 系统错误: {str(e)}")
-                raise
-            # file_extension = Path(video_path).suffix
+            # 移除文件重命名相关代码，直接使用原始视频路径
+            new_video_path = video_path  # 使用原始路径，不进行重命名
             
-            # # 创建新的文件名
-            # new_video_name = f"{video_uuid}{file_extension}"
-            # new_video_path = os.path.join(os.path.dirname(video_path), new_video_name)
-            
-            # # 重命名文件
-            # os.rename(video_path, new_video_path)
             # 1. 预处理视频
             """print(f"开始预处理视频: {video_name}")
             final_video = self.preprocessor.process_video(
@@ -155,12 +114,12 @@ class VideoProcessor:
 
             # 3. 切片处理
 
-            print(f"开始视频切片: {video_uuid},素材路径：{new_video_path}")
+            print(f"开始视频切片: {video_uuid},素材路径：{video_path}")
             """file_name = "inpaint_out.mp4"
             final_video_name = os.path.join(video_path,file_name)"""
            
             slices = self.slicer.slice_video(
-                video_path=new_video_path,
+                video_path=video_path,  # 使用原始视频路径
                 #output_dir=os.path.join(self.config.video_config['frames_dir'], video_name),
                 threshold=self.config.slice_config['slice_threshold']
             )
@@ -198,31 +157,17 @@ class VideoProcessor:
                 progress = 50 + (idx / total_slices * 50)
                 self.processing_status[video_uuid]['progress'] = progress
 
-            # 处理完成后，为集合添加标签
-            # try:
-            #     # 获取视频所在目录名
-            #     video_dir = os.path.basename(os.path.dirname(video_path))
-            #     # 从标签映射中获取对应的标签ID
-            #     if video_dir in self.tagging_service.tag_mappings:
-            #         tag_info = self.tagging_service.tag_mappings[video_dir]
-            #         await self.kb_handler.add_tags_to_collections(
-            #             collection_ids=[dataset_id],
-            #             dataset_id=self.config.knowledge_base_config['datasetId'],
-            #             tag_id=tag_info['tag_id']
-            #         )
-            #         self.logger.info(f"成功为集合 {dataset_id} 添加标签: {tag_info['tag_name']}")
-            # except Exception as e:
-            #     self.logger.error(f"添加标签失败: {str(e)}")
-
             # 处理完成
             self.processing_status[video_uuid].update({
                 'status': 'completed',
                 'end_time': datetime.now(),
                 'progress': 100
             })
+            
+            # 移动到完成目录时使用原始文件名
             finished_dir = self.config.slice_config['finish_dir']
             os.makedirs(finished_dir, exist_ok=True)
-            shutil.move(new_video_path, os.path.join(finished_dir, os.path.basename(video_path)))
+            shutil.move(video_path, os.path.join(finished_dir, os.path.basename(video_path)))
 
 
             return {

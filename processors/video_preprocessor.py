@@ -6,7 +6,7 @@ from pathlib import Path
 from dataclasses import dataclass
 from typing import Optional, Tuple
 
-from propainter.pre_process import preprocess_video
+#from propainter.pre_process import preprocess_video
 
 @dataclass
 class ProcessResult:
@@ -81,7 +81,7 @@ class VideoPreprocessor:
             os.makedirs(frames_path, exist_ok=True)
             # 这里实现帧提取逻辑...
             # 例如使用 ffmpeg 提取帧
-            preprocess_video(video_path,temp_output_path,frames_path)
+            #preprocess_video(video_path,temp_output_path,frames_path)
             return ProcessResult(True, output_path=frames_path)
         except Exception as e:
             return ProcessResult(False, message=f"帧提取失败: {str(e)}")
