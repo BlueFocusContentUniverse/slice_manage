@@ -23,6 +23,7 @@ class KnowledgeBaseHandler:
             'Content-Type': 'application/json',
             'Accept': '*/*'
         }
+        self.auth_cookie = None  # 添加auth_cookie属性
 
     async def __aenter__(self):
         """异步上下文管理器入口"""
@@ -49,8 +50,9 @@ class KnowledgeBaseHandler:
             if not token:
                 raise ValueError("登录后未找到有效token")
             
-            # 更新异步session的headers
+            # 更新异步session的headers和auth_cookie
             self.session.headers.update({'Cookie': f"token={token}"})
+            self.auth_cookie = f"token={token}"
             self.logger.info("登录成功")
             
         except Exception as e:
@@ -114,6 +116,8 @@ class KnowledgeBaseHandler:
                 
                 # 使用新 token 更新 session headers
                 sync_session.headers.update({'Cookie': f"token={new_token}"})
+                # 同时更新auth_cookie
+                self.auth_cookie = f"token={new_token}"
                 self.logger.info(f"登录成功 (尝试 {retry_count + 1}/{max_retries + 1})")
                 return sync_session
                 
@@ -148,9 +152,9 @@ class KnowledgeBaseHandler:
             sync_session = requests.Session()
             sync_session.headers.update(self._headers)
             
-            # 如果有token，确保添加到请求头中
-            if hasattr(self, 'session') and 'Cookie' in self.session.headers:
-                sync_session.headers.update({'Cookie': self.session.headers['Cookie']})
+            # 如果有auth_cookie，确保添加到请求头中
+            if self.auth_cookie:
+                sync_session.headers.update({'Cookie': self.auth_cookie})
             
             response = sync_session.post(
                 f"{self.base_url}/api/core/dataset/collection/create",
@@ -198,9 +202,9 @@ class KnowledgeBaseHandler:
             sync_session = requests.Session()
             sync_session.headers.update(self._headers)
             
-            # 如果有token，确保添加到请求头中
-            if hasattr(self, 'session') and 'Cookie' in self.session.headers:
-                sync_session.headers.update({'Cookie': self.session.headers['Cookie']})
+            # 如果有auth_cookie，确保添加到请求头中
+            if self.auth_cookie:
+                sync_session.headers.update({'Cookie': self.auth_cookie})
             
             response = sync_session.post(
                 f"{self.base_url}/api/core/dataset/data/pushData",
@@ -243,9 +247,9 @@ class KnowledgeBaseHandler:
             sync_session = requests.Session()
             sync_session.headers.update(self._headers)
             
-            # 如果有token，确保添加到请求头中
-            if hasattr(self, 'session') and 'Cookie' in self.session.headers:
-                sync_session.headers.update({'Cookie': self.session.headers['Cookie']})
+            # 如果有auth_cookie，确保添加到请求头中
+            if self.auth_cookie:
+                sync_session.headers.update({'Cookie': self.auth_cookie})
             
             response = sync_session.post(
                 f"{self.base_url}/api/proApi/core/dataset/tag/addToCollections",

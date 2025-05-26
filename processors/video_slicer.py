@@ -199,15 +199,21 @@ class VideoSlicer:
                         result = subprocess.run(
                             ffmpeg_cmd,
                             capture_output=True,
-                            text=True,
+                            text=False,  # 改为False，不自动解码
                             check=True
                         )
-                        self.logger.debug(f"FFmpeg stdout: {result.stdout}")
-                        if result.stderr:
-                            self.logger.debug(f"FFmpeg stderr: {result.stderr}")
+                        # 安全解码stdout，使用replace策略处理不可解码的字节
+                        stdout = result.stdout.decode('utf-8', errors='replace') if result.stdout else ""
+                        stderr = result.stderr.decode('utf-8', errors='replace') if result.stderr else ""
+                        
+                        self.logger.debug(f"FFmpeg stdout: {stdout}")
+                        if stderr:
+                            self.logger.debug(f"FFmpeg stderr: {stderr}")
                             
                     except subprocess.CalledProcessError as e:
-                        self.logger.error(f"FFmpeg 执行失败: {e.stderr}")
+                        # 安全解码错误信息
+                        stderr = e.stderr.decode('utf-8', errors='replace') if e.stderr else "未知错误"
+                        self.logger.error(f"FFmpeg 执行失败: {stderr}")
                         raise
                     
                     segment_info = {

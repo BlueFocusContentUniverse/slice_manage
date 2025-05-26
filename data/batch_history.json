@@ -1,0 +1,1555 @@
+[
+  {
+    "task_id": "464bd85d-95c9-4845-928c-1e3e0053f423",
+    "video_name": "一颗电芯的诞生-Final.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:13:16",
+    "status": "PENDING",
+    "processing_uuid": "0ba2cbf7-34bb-45e8-9f38-885a4482d2df",
+    "is_chunk": false
+  },
+  {
+    "task_id": "3d3b30d6-469d-4179-b196-a7493945632b",
+    "video_name": "书架篇2023.12.27.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:13:16",
+    "status": "PENDING",
+    "processing_uuid": "39240e07-eaa8-47f3-bf59-3b99c406e2f1",
+    "is_chunk": false
+  },
+  {
+    "task_id": "0e8944fb-e4e2-4833-be0f-99471ddca12e",
+    "video_name": "手术篇2023.12.7.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:13:16",
+    "status": "PENDING",
+    "processing_uuid": "1818f7a1-2e79-424c-840f-d47798c63a10",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e695bdf6-839d-4d14-9ba9-de0b1d890167",
+    "video_name": "涂布篇2023.12.12(1).mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:13:18",
+    "status": "PENDING",
+    "processing_uuid": "e3371072-9349-4c35-844a-bf788d795cce",
+    "is_chunk": false
+  },
+  {
+    "task_id": "3c14e793-9e15-4af4-97b7-edbc76641b3b",
+    "video_name": "灯塔工厂创意Rap视频.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:13:18",
+    "status": "PENDING",
+    "processing_uuid": "f5d21ac1-977f-4247-a41a-735105d9b78f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "0ff75846-9b24-4049-bdf8-8be41eaf412b",
+    "video_name": "电池包 成品视频.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:13:18",
+    "status": "PENDING",
+    "processing_uuid": "747fc8f0-c816-460d-8c53-618997b8433a",
+    "is_chunk": false
+  },
+  {
+    "task_id": "bffc9499-1ade-414f-be67-4f0a26a86a8c",
+    "video_name": "电芯确认版2023.11.13.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:13:20",
+    "status": "PENDING",
+    "processing_uuid": "54f63439-610e-4e70-b2e8-ceac186c6db8",
+    "is_chunk": false
+  },
+  {
+    "task_id": "5f8ae55c-9d66-425f-8b1e-de0dc7b9df54",
+    "video_name": "一颗电芯的诞生-Final.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:26:29",
+    "status": "PENDING",
+    "processing_uuid": "75f9cdbe-c9ff-4df1-a949-433757bf00d7",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f7b08be7-fb9b-456d-bd73-d93f0fb17f6c",
+    "video_name": "书架篇2023.12.27.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:26:29",
+    "status": "PENDING",
+    "processing_uuid": "bd12e943-e801-4bc3-8967-5bab5356d0b2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d263b0e1-ce43-47d3-943f-1bc2af2d0a92",
+    "video_name": "手术篇2023.12.7.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:26:29",
+    "status": "PENDING",
+    "processing_uuid": "d976b90a-fcac-4348-adbf-1f59dcaefc26",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d644ad56-fd87-4f65-8be3-31eb3ebd2169",
+    "video_name": "涂布篇2023.12.12(1).mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:26:31",
+    "status": "PENDING",
+    "processing_uuid": "bf1908fd-3a57-48a7-ac3d-f57e5d0d0d22",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ba172960-f500-42f2-9f26-399a39929fc9",
+    "video_name": "灯塔工厂创意Rap视频.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:26:31",
+    "status": "PENDING",
+    "processing_uuid": "73027b4c-96bd-4a27-8fca-2ce4aa103033",
+    "is_chunk": false
+  },
+  {
+    "task_id": "bd656b64-7641-4ee4-89f0-c025d39541f5",
+    "video_name": "电池包 成品视频.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:26:31",
+    "status": "PENDING",
+    "processing_uuid": "4ec4fe83-eb48-4fcf-90f9-aac055851e16",
+    "is_chunk": false
+  },
+  {
+    "task_id": "44ed40ff-429d-4c54-872e-cc2fa5260a52",
+    "video_name": "电芯确认版2023.11.13.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代电池",
+    "start_time": "2025-05-19 12:26:33",
+    "status": "PENDING",
+    "processing_uuid": "9a73c403-2ae8-4e3c-9874-15b8ec2c06d0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c3d34a83-214b-4c5e-bb1b-e54626cdd168",
+    "video_name": "一颗电芯的诞生-Final.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-19 13:07:19",
+    "status": "PENDING",
+    "processing_uuid": "0ad9313c-0426-4e35-8c6b-1e0b089d8b88",
+    "is_chunk": false
+  },
+  {
+    "task_id": "78a4dfc2-fc64-4c7b-baf5-530964d8b77f",
+    "video_name": "灯塔工厂创意Rap视频.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-19 13:07:19",
+    "status": "PENDING",
+    "processing_uuid": "3f41d8c1-13e2-4197-8178-68a6fe53d17e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "0e121322-92e0-49fc-9b7c-e37dd97be041",
+    "video_name": "电池包 成品视频.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-19 13:07:19",
+    "status": "PENDING",
+    "processing_uuid": "8bb595ae-0f8c-4665-ae5c-7c2df866c2ce",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a5e93169-7174-4495-a195-d3af6dacfe41",
+    "video_name": "敲钟.mov",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "理想L6的介绍",
+    "start_time": "2025-05-20 02:31:59",
+    "status": "PENDING",
+    "processing_uuid": "34c3d1a0-ebc2-4d77-aa69-7b4027fecf30",
+    "is_chunk": false
+  },
+  {
+    "task_id": "3ddb27e3-4a38-4288-9857-4f3899d2198f",
+    "video_name": "香槟庆祝.mov",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "理想L6的介绍",
+    "start_time": "2025-05-20 02:31:59",
+    "status": "PENDING",
+    "processing_uuid": "f60549b9-2477-4ee4-ae57-df1d91bbf631",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ba0678cb-9977-4dc0-81ad-bd3e2d5a87f2",
+    "video_name": "股票.MP4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "理想L6的介绍",
+    "start_time": "2025-05-20 02:31:59",
+    "status": "PENDING",
+    "processing_uuid": "bdee04a3-cf05-439b-8491-8644de9edb8e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fe3e962e-4bfc-4e46-8551-4082dbb7abe3",
+    "video_name": "屏幕滚动宁德时代股票信息.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-20 04:55:10",
+    "status": "PENDING",
+    "processing_uuid": "784d351a-c9ce-401a-b8d2-a32854b10919",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a3667f2c-dfeb-40b3-b1d4-2425327f8036",
+    "video_name": "宁德时代董事长、CEO曾毓群作为主礼嘉宾出席敲钟仪式，敲响上市钟声。.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-20 04:55:10",
+    "status": "PENDING",
+    "processing_uuid": "9a52ab20-4815-4793-a616-159fdb862c36",
+    "is_chunk": false
+  },
+  {
+    "task_id": "4189ea84-0c3c-4b49-8232-7eee3d3238d0",
+    "video_name": "曾毓群金句1：港股上市意味着我们更加广泛的融入了全球资本市场，也是我们推动全球磷炭经济的新起点.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-20 04:55:10",
+    "status": "PENDING",
+    "processing_uuid": "cb73524d-e289-45a3-a303-24581416bd65",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fa9a7644-d8e4-4272-9fe6-d7a94f2f8599",
+    "video_name": "财政司长金句1.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-20 04:55:12",
+    "status": "PENDING",
+    "processing_uuid": "17056a25-483f-4068-95d0-da885f7c8011",
+    "is_chunk": false
+  },
+  {
+    "task_id": "3ce08ace-702e-457f-a009-713d785f5cbe",
+    "video_name": "_跑山日常 _小米 偶遇小米yu7伪装车_这底盘支撑性和提速是相当不错啊_1747910249_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:38",
+    "status": "PENDING",
+    "processing_uuid": "a4890e62-a2d1-4f0d-a712-0d8720ae1084",
+    "is_chunk": false
+  },
+  {
+    "task_id": "decf2f28-f73e-4a87-8ed8-c0b1a582a094",
+    "video_name": "_抓拍_路上偶遇小米YU7无伪装实车_这底盘调校绝了__御妻可能超预期__小米汽车 _小米YU7参数_1747910249_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:38",
+    "status": "PENDING",
+    "processing_uuid": "99daa807-6f20-4eb6-978a-1dfcc8a98fc1",
+    "is_chunk": false
+  },
+  {
+    "task_id": "231e1fe7-0c56-4463-a762-560ab35b14b3",
+    "video_name": "1分17秒_首发小米YU7AIGC影像_全方位视角无伪装_这个造型是你想要的样子吗__小米汽车 _雷_1747910554_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:38",
+    "status": "PENDING",
+    "processing_uuid": "88e69b28-4fd6-4ae4-83d6-a93a2d78f656",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fd982af1-6bd7-4742-89f2-0d1fd0d0273b",
+    "video_name": "沉浸式参观小米YU7 _ Su7 Ultra__小米su7 _小米YU7  _小米su7ultra _1747910556_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:38",
+    "status": "PENDING",
+    "processing_uuid": "c4684a0f-7037-4911-89bb-d421b9843c9d",
+    "is_chunk": false
+  },
+  {
+    "task_id": "17aee14b-2071-4cef-aedd-5fc9ddc1612e",
+    "video_name": "你们心心念念的YU7它来啦 沉浸纯享版_小米yu7外观 _小米yu7_1747910554_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:38",
+    "status": "PENDING",
+    "processing_uuid": "23d58422-bd52-44c0-9a4c-cadb78a08789",
+    "is_chunk": false
+  },
+  {
+    "task_id": "40864067-d3c2-41f3-a083-971e646aefd0",
+    "video_name": "小米YU7 5月22号晚七点准备发布了__小米Yu7_520_雷军_1747910403_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:38",
+    "status": "PENDING",
+    "processing_uuid": "dd570adb-69c9-44bc-8b38-95b11aa25f95",
+    "is_chunk": false
+  },
+  {
+    "task_id": "39178d79-444d-4f5b-a896-31fe7512e138",
+    "video_name": "小米YU7 官宣新配色 宝石绿 这颜色挺显高级_小米汽车 _yu7 _发布会 _dou是好车 _抖音_1747910402_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:38",
+    "status": "PENDING",
+    "processing_uuid": "7aac0d54-a0a2-40d9-8993-fff40cde148a",
+    "is_chunk": false
+  },
+  {
+    "task_id": "3278d3e5-c3ac-4485-aac7-323256f8aa3a",
+    "video_name": "小米yu7 天际全景展示_这你受得了么__雷军说YU7有不可替代的魅力  _我和我的小米汽车 _小米_1747910554_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:39",
+    "status": "PENDING",
+    "processing_uuid": "92bdf1e4-272a-49bd-b9c5-442554e9483f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fa7eab08-7af6-4230-b4c4-92df9149caa9",
+    "video_name": "小米yu7_色彩_是表达自我的语言_御7的颜色怎么选呢_都这么好看__雷军 _小米 _小米汽车 _小_1747910403_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:39",
+    "status": "PENDING",
+    "processing_uuid": "3ae99b68-3285-4d5e-a16f-58acf2a18531",
+    "is_chunk": false
+  },
+  {
+    "task_id": "67523103-2bfa-4d3e-8765-e0a379cf4c9d",
+    "video_name": "小米yu7动态展示ai版_这次的绿色真帅__小米 _小米yu7 _小米汽车_1747910249_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:39",
+    "status": "PENDING",
+    "processing_uuid": "4e54bfaf-a6a4-4aef-8968-6910ce6eb4db",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a8200f06-21f3-4289-bc46-72cffd731de7",
+    "video_name": "小米YU7全新配色 宝石绿 质感无敌_小米yu7 _小米su7 _小米汽车_1747910403_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:39",
+    "status": "PENDING",
+    "processing_uuid": "d374b719-a149-4e48-9fd4-7bd66745342f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "5eae6c91-2507-424b-99ae-14ce8d2c7ca6",
+    "video_name": "小米YU7全新配色 钛金属色 豪华质感_小米yu7 _小米su7 _雷军_1747910403_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:39",
+    "status": "PENDING",
+    "processing_uuid": "4230f7b3-7e6c-4228-96ef-0ee9826849a2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "375e73b6-cbe6-42f0-b3f5-150e09540f80",
+    "video_name": "小米YU7在武汉大学樱花下的瞬间_美炸了_这大灯看着真霸气_怎么不来个霞光紫来拍拍_不知道YU7有多_1747910553_0.mp4",
+    "knowledge_base_id": "67247389e826ef2d809ecaa7",
+    "brand_model": "小米yu7",
+    "start_time": "2025-05-22 11:28:39",
+    "status": "PENDING",
+    "processing_uuid": "b7f39805-a512-4310-b14a-30da6cb92071",
+    "is_chunk": false
+  },
+  {
+    "task_id": "817fbc7c-bb15-48fc-855e-76fc5aaa478f",
+    "video_name": "沉浸式体验_小米YU7_懂车帝抢先试驾_璐鹏陪您看_1747983201_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:53",
+    "status": "PENDING",
+    "processing_uuid": "8c547cb7-3b4f-4f51-8f31-c0f3a3b1cac8",
+    "is_chunk": false
+  },
+  {
+    "task_id": "5fba7fdc-e46b-4311-b25c-c7dc8ffeef71",
+    "video_name": "深度体验小米YU7_竟然连仪表盘都取消了_ _小米YU7 _小米首款suv曝光 _车星计划 _小米Y_1747983197_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:53",
+    "status": "PENDING",
+    "processing_uuid": "ad8b12ad-e35c-406e-a548-47a68804c4fb",
+    "is_chunk": false
+  },
+  {
+    "task_id": "64a9348e-53c5-48ef-b7c6-61a49a049d8c",
+    "video_name": "小米YU7 全球首拍__1747983198_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:53",
+    "status": "PENDING",
+    "processing_uuid": "a458129a-409b-4fd3-a3d2-dcb30cf7a7b5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fb73a6c1-9403-42f4-8359-3f9323dd429f",
+    "video_name": "小米YU7_全国首体验_ _小米YU7首发评测_1747983198_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:55",
+    "status": "PENDING",
+    "processing_uuid": "b325f219-de35-4b03-9830-9542cc5382f3",
+    "is_chunk": false
+  },
+  {
+    "task_id": "885ebbc9-2fce-47a3-9f7b-3c8ababa3c12",
+    "video_name": "yu7室内天际屏曝光_第一视角 _小米yu7发布_1747983572_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:55",
+    "status": "PENDING",
+    "processing_uuid": "ab863de8-5ea9-45a4-96cf-10713166d4c5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "7b1d059a-2bdb-41ca-ae81-47f1d0d6d917",
+    "video_name": "设计理念视频 _小米YU7 继承小米汽车家族设计__是延续_也是进化__坐进车里_触摸到的_看到的__1747983572_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:55",
+    "status": "PENDING",
+    "processing_uuid": "f074cced-8bf9-4d8c-864e-20a19d4ec458",
+    "is_chunk": false
+  },
+  {
+    "task_id": "464e356e-e961-4ca9-ae3e-de86cc600c29",
+    "video_name": "小米YU7登场音乐完整版_米粉自取  _小米YU7_1747983574_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:57",
+    "status": "PENDING",
+    "processing_uuid": "0bd50656-250f-41e5-a0d7-217136486fdf",
+    "is_chunk": false
+  },
+  {
+    "task_id": "92ef545e-95de-4329-be39-33e913643cec",
+    "video_name": "小米yu7宣传片_yu7 _雷军 _小米_1747983571_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:57",
+    "status": "PENDING",
+    "processing_uuid": "42ea0f78-715c-464c-b0a2-32a66fc320c2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c776c065-ae51-46c6-b5e2-6bd3292f4294",
+    "video_name": "小米yu7宣传片抢先欣赏_太帅啦_小米 _雷军 _小米yu7_1747983572_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:57",
+    "status": "PENDING",
+    "processing_uuid": "0b0b5e4e-8449-4b55-88ce-e6f8398ff5f0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "14f2cd64-6903-4727-aab3-8fa74b606116",
+    "video_name": "能干翻 Model Y 吗_2 分钟速览小米 YU7_小米YU7首发评测 _小米YU7 _小米SU7_1747982951_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:59",
+    "status": "PENDING",
+    "processing_uuid": "75b2e026-bbcd-4ac7-b15c-0bdb11e48dae",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ca04ca87-18c1-4cf2-9767-0877fd2b5d70",
+    "video_name": "小米YU7静态全网首发_雷总说不可能19万9_你们觉得卖多少钱合适__小米YU7_小米汽车_汽车人共_1747982951_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:59",
+    "status": "PENDING",
+    "processing_uuid": "2c6c655b-ac9f-4d14-8150-9016edad725e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "29f39f2f-3e72-4c8e-a27c-be6e629ffbc6",
+    "video_name": "小米YU7全网首次横评_特斯拉Model Y_智界R7 能否招架__小米YU7_特斯拉ModelY__1747982951_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:11:59",
+    "status": "PENDING",
+    "processing_uuid": "9b8248a2-0751-46ed-bf1a-9ac76714c367",
+    "is_chunk": false
+  },
+  {
+    "task_id": "935650d8-58de-4513-a78f-08ddcf1690f6",
+    "video_name": "宝藏壁纸-小米汽车YU7-宝石绿-动态手机壁纸墙纸 _小米YU7 _小米YU7宝石绿 _原图自取_屏_1747984031_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:12:01",
+    "status": "PENDING",
+    "processing_uuid": "8e0d093e-e403-4bb4-92b4-b964e0b5f345",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9d195052-5ff5-401b-91b3-d83ffb3a5f48",
+    "video_name": "外观亮相 小米汽车首款SUV __小米YU7 登场__小米YU7_御风而行_一条视频感受风采__1747984030_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:12:01",
+    "status": "PENDING",
+    "processing_uuid": "a6ca3900-8027-46d3-a3da-f1ff2eded036",
+    "is_chunk": false
+  },
+  {
+    "task_id": "05a1b555-c2aa-4cef-8779-f00a7ec99cf3",
+    "video_name": "小米天际屏全景展示__雷军 _小米YU7 _小米汽车_1747984031_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:12:01",
+    "status": "PENDING",
+    "processing_uuid": "eff17a55-a70b-4d83-accb-5e44fefb7203",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cf333545-785c-4dd0-a176-4c4c2dc175f8",
+    "video_name": "小米YU7发布会超燃宣传片_流畅线条车身_精致内饰_帅呆了_看完有股忍不住下单的冲动___小米YU7_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:12:02",
+    "status": "PENDING",
+    "processing_uuid": "6f202530-1069-48f9-b5c9-2c443c6df368",
+    "is_chunk": false
+  },
+  {
+    "task_id": "418650eb-7549-403c-8831-f556d7220090",
+    "video_name": "小米yu7闪亮出场啦啦啦啦_小米Yu7 _小米发布会 _雷军年度演讲 _dou是好车 _流量_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:12:02",
+    "status": "PENDING",
+    "processing_uuid": "a287c085-c8c4-4d4d-a955-3bd93f724a01",
+    "is_chunk": false
+  },
+  {
+    "task_id": "56ec1d0a-6c48-4d83-b80f-dd8bc6f11e8b",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:12:02",
+    "status": "PENDING",
+    "processing_uuid": "4fad387e-68c9-4f5e-a269-a2172567b4db",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6d7d5e20-47b9-41d9-8599-7cf0595e1fcd",
+    "video_name": "用热烈的掌声有请YU7_小米发布会名场面 _小米YU7 _雷军_1747982746_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:12:04",
+    "status": "PENDING",
+    "processing_uuid": "135a0cf5-4ff5-4e18-9920-1dd8dc9d2d5b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "43780361-e61a-4710-8f3a-2819744cc6f8",
+    "video_name": "沉浸式体验_小米YU7_懂车帝抢先试驾_璐鹏陪您看_1747983201_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:33",
+    "status": "PENDING",
+    "processing_uuid": "e263bbb7-9737-4e70-b81c-4c5b24443961",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ae1d8494-295c-4522-bdb1-5642302c4ba4",
+    "video_name": "深度体验小米YU7_竟然连仪表盘都取消了_ _小米YU7 _小米首款suv曝光 _车星计划 _小米Y_1747983197_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:33",
+    "status": "PENDING",
+    "processing_uuid": "fc447cca-95e3-448f-8b1a-8a0915a2d84c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "29b2d19b-3c95-485f-a39e-e3ce26d53241",
+    "video_name": "小米YU7 全球首拍__1747983198_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:33",
+    "status": "PENDING",
+    "processing_uuid": "45db39fc-4127-4d09-91b1-09c91a5cea58",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9bfdf650-fa38-4599-bd35-a25e4290e910",
+    "video_name": "小米YU7_全国首体验_ _小米YU7首发评测_1747983198_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:35",
+    "status": "PENDING",
+    "processing_uuid": "4a0a8f79-9d7c-424a-b80f-c7d893e2de99",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a49d8be5-e8fe-4183-829e-bc98d4f52075",
+    "video_name": "yu7室内天际屏曝光_第一视角 _小米yu7发布_1747983572_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:35",
+    "status": "PENDING",
+    "processing_uuid": "3707140a-b5d8-4f5a-ba2e-1a04a6c8990c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e010e29e-838e-4d96-83d8-2f638afd0f95",
+    "video_name": "设计理念视频 _小米YU7 继承小米汽车家族设计__是延续_也是进化__坐进车里_触摸到的_看到的__1747983572_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:35",
+    "status": "PENDING",
+    "processing_uuid": "715e52e7-702f-4f5e-a822-03bdc103e90c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "acd58a54-9cc0-4906-ac9d-2ddabbde8c09",
+    "video_name": "小米YU7登场音乐完整版_米粉自取  _小米YU7_1747983574_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:38",
+    "status": "PENDING",
+    "processing_uuid": "de393553-45df-4b24-b43e-f0d03a597870",
+    "is_chunk": false
+  },
+  {
+    "task_id": "396c0854-11f7-451d-a1c5-71a2f75a9074",
+    "video_name": "小米yu7宣传片_yu7 _雷军 _小米_1747983571_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:38",
+    "status": "PENDING",
+    "processing_uuid": "aa133c69-17c7-402c-8708-a2ce33d2b004",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1f152c2d-6ff2-4973-b63a-a58ada8cb948",
+    "video_name": "小米yu7宣传片抢先欣赏_太帅啦_小米 _雷军 _小米yu7_1747983572_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:38",
+    "status": "PENDING",
+    "processing_uuid": "38f96040-2f52-4b75-a231-8b086c384aa5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e7715993-ed51-4899-8500-cdad4cf4a766",
+    "video_name": "能干翻 Model Y 吗_2 分钟速览小米 YU7_小米YU7首发评测 _小米YU7 _小米SU7_1747982951_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:40",
+    "status": "PENDING",
+    "processing_uuid": "02904263-0b51-4737-87ef-7fbb800201e0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "dd25f767-7632-4a20-bf33-1ab1feb15a40",
+    "video_name": "小米YU7静态全网首发_雷总说不可能19万9_你们觉得卖多少钱合适__小米YU7_小米汽车_汽车人共_1747982951_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:40",
+    "status": "PENDING",
+    "processing_uuid": "a0c15a59-9676-4d6d-b40f-ecdc400a52e2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c35904ec-805a-4dbe-beae-7f59cb2414d4",
+    "video_name": "小米YU7全网首次横评_特斯拉Model Y_智界R7 能否招架__小米YU7_特斯拉ModelY__1747982951_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:40",
+    "status": "PENDING",
+    "processing_uuid": "a9b9353e-4059-45c2-b666-11b492e42746",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c038e7f9-6e92-468d-a69a-002f9c68b3c1",
+    "video_name": "宝藏壁纸-小米汽车YU7-宝石绿-动态手机壁纸墙纸 _小米YU7 _小米YU7宝石绿 _原图自取_屏_1747984031_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:43",
+    "status": "PENDING",
+    "processing_uuid": "3e2020b8-e2fd-4145-be33-6cd56cd45a09",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d1b1f7cb-40ff-4457-9585-a8be993f1af9",
+    "video_name": "外观亮相 小米汽车首款SUV __小米YU7 登场__小米YU7_御风而行_一条视频感受风采__1747984030_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:43",
+    "status": "PENDING",
+    "processing_uuid": "b60cd9d8-2167-4a6d-baea-acc1a4adf5a4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "395d3102-ebc4-476d-82e5-f1539b800d82",
+    "video_name": "小米天际屏全景展示__雷军 _小米YU7 _小米汽车_1747984031_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:43",
+    "status": "PENDING",
+    "processing_uuid": "2524d401-1e58-48bc-b3da-f34bbf7d4a3d",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cfb80856-37d7-49d4-b4c2-7f43746394f8",
+    "video_name": "小米YU7发布会超燃宣传片_流畅线条车身_精致内饰_帅呆了_看完有股忍不住下单的冲动___小米YU7_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:45",
+    "status": "PENDING",
+    "processing_uuid": "0d6b3848-5f00-42ef-b73b-b364022ba4c2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "17a97e7a-1e68-4e2b-9916-eff6d67720b5",
+    "video_name": "小米yu7闪亮出场啦啦啦啦_小米Yu7 _小米发布会 _雷军年度演讲 _dou是好车 _流量_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:45",
+    "status": "PENDING",
+    "processing_uuid": "ad58747b-d2e9-4678-92c1-3051b46de1b3",
+    "is_chunk": false
+  },
+  {
+    "task_id": "037f3026-901d-499d-bae3-41763e75a105",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:45",
+    "status": "PENDING",
+    "processing_uuid": "69f689d4-983a-46fc-80c5-073ac06fd368",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f051248c-8770-4c1e-afe7-9d1f1dcded22",
+    "video_name": "用热烈的掌声有请YU7_小米发布会名场面 _小米YU7 _雷军_1747982746_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:47",
+    "status": "PENDING",
+    "processing_uuid": "7c117c91-ea69-4004-9132-6b20b31c8880",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c890ef3a-4b39-469b-90c7-2de1796a1a5e",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:47",
+    "status": "PENDING",
+    "processing_uuid": "992eac61-1c0e-4db9-8548-af8268a8233f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "afff3d52-3ba2-48fd-8658-14eef7ac20a6",
+    "video_name": "小米YU7发布会超燃宣传片_流畅线条车身_精致内饰_帅呆了_看完有股忍不住下单的冲动___小米YU7_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:47",
+    "status": "PENDING",
+    "processing_uuid": "a162a5fc-4e09-48eb-b232-6edb05e97559",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b8ce7831-356d-4083-b001-fad2129ece31",
+    "video_name": "小米yu7闪亮出场啦啦啦啦_小米Yu7 _小米发布会 _雷军年度演讲 _dou是好车 _流量_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:49",
+    "status": "PENDING",
+    "processing_uuid": "0dfb98e2-e07d-4e70-acc0-327efebfcdc7",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d6c132a8-ba35-4bd0-8988-c192f457540e",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:49",
+    "status": "PENDING",
+    "processing_uuid": "336683d9-080e-4432-b341-ed178dcd4b89",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2383799e-c656-4dce-99e6-c30ab7a9e37e",
+    "video_name": "用热烈的掌声有请YU7_小米发布会名场面 _小米YU7 _雷军_1747982746_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "宁德时代",
+    "start_time": "2025-05-23 07:20:49",
+    "status": "PENDING",
+    "processing_uuid": "ebce8012-54da-44df-8c09-0a4bf0786ca5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9aa7c5c2-ab4a-447d-9673-011bf018a4f4",
+    "video_name": "沉浸式体验_小米YU7_懂车帝抢先试驾_璐鹏陪您看_1747983201_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:51",
+    "status": "PENDING",
+    "processing_uuid": "a53fcba3-66b0-4139-aa62-59f473af42a7",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ef901045-b94b-4c37-aa9e-c11c14b81ea2",
+    "video_name": "深度体验小米YU7_竟然连仪表盘都取消了_ _小米YU7 _小米首款suv曝光 _车星计划 _小米Y_1747983197_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:51",
+    "status": "PENDING",
+    "processing_uuid": "34bd9896-6a22-488c-baa1-4c163c7d0a03",
+    "is_chunk": false
+  },
+  {
+    "task_id": "7a527759-dbd7-4ebf-bc83-44b454af9059",
+    "video_name": "小米YU7 全球首拍__1747983198_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:51",
+    "status": "PENDING",
+    "processing_uuid": "78975e22-b3dd-48ef-a9a9-245ad9344298",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f82a8e1b-0e0b-4c9f-8983-53b792ee8f03",
+    "video_name": "小米YU7_全国首体验_ _小米YU7首发评测_1747983198_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:51",
+    "status": "PENDING",
+    "processing_uuid": "4dd6d197-45c5-4102-b668-49d212fbecef",
+    "is_chunk": false
+  },
+  {
+    "task_id": "01daa971-3f30-4e5a-8120-7204031f1636",
+    "video_name": "yu7室内天际屏曝光_第一视角 _小米yu7发布_1747983572_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:51",
+    "status": "PENDING",
+    "processing_uuid": "c0477282-255c-448c-8387-57c2bbce3fc2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cc8c21ce-2de9-44f9-bc17-5b855834c283",
+    "video_name": "设计理念视频 _小米YU7 继承小米汽车家族设计__是延续_也是进化__坐进车里_触摸到的_看到的__1747983572_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:51",
+    "status": "PENDING",
+    "processing_uuid": "db616ee0-8a22-415b-9a8e-e618e281b05a",
+    "is_chunk": false
+  },
+  {
+    "task_id": "5aa43f18-2e7c-4706-be15-aabd4abdb1b2",
+    "video_name": "小米YU7登场音乐完整版_米粉自取  _小米YU7_1747983574_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:51",
+    "status": "PENDING",
+    "processing_uuid": "445c342b-a580-4a90-b7ab-da721253173e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "767ccf91-f689-4d65-a33b-0a9705f4458e",
+    "video_name": "小米yu7宣传片_yu7 _雷军 _小米_1747983571_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:53",
+    "status": "PENDING",
+    "processing_uuid": "5652bae3-0681-434a-8805-f0d4921a41c2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "194bf877-2e30-4514-b56a-2cdf1d451d62",
+    "video_name": "小米yu7宣传片抢先欣赏_太帅啦_小米 _雷军 _小米yu7_1747983572_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:53",
+    "status": "PENDING",
+    "processing_uuid": "55013f21-f66c-49f0-abe7-6ca1dc533c7c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "211c8a64-ba25-4555-baa9-8bc8a5e8254b",
+    "video_name": "能干翻 Model Y 吗_2 分钟速览小米 YU7_小米YU7首发评测 _小米YU7 _小米SU7_1747982951_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:53",
+    "status": "PENDING",
+    "processing_uuid": "a5b4ea90-bf7b-42c5-9947-ce2937ff6676",
+    "is_chunk": false
+  },
+  {
+    "task_id": "64ef2890-5f70-4288-b048-1a51288293d5",
+    "video_name": "小米YU7静态全网首发_雷总说不可能19万9_你们觉得卖多少钱合适__小米YU7_小米汽车_汽车人共_1747982951_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:53",
+    "status": "PENDING",
+    "processing_uuid": "805f3a7b-b8d8-4a5d-b3ee-79c8406a080b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b0235bd3-8294-40c4-add3-2f4363240cc3",
+    "video_name": "小米YU7全网首次横评_特斯拉Model Y_智界R7 能否招架__小米YU7_特斯拉ModelY__1747982951_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:53",
+    "status": "PENDING",
+    "processing_uuid": "f96fbee3-572e-412b-b809-1677cf9f9392",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8eb991f5-80f8-40c8-898d-7ac9fad027b0",
+    "video_name": "宝藏壁纸-小米汽车YU7-宝石绿-动态手机壁纸墙纸 _小米YU7 _小米YU7宝石绿 _原图自取_屏_1747984031_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:53",
+    "status": "PENDING",
+    "processing_uuid": "e7c5770f-c95e-4e2b-9428-d911e44606d0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "966bb5fc-cc91-48dc-bd02-a25e4106de71",
+    "video_name": "外观亮相 小米汽车首款SUV __小米YU7 登场__小米YU7_御风而行_一条视频感受风采__1747984030_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:53",
+    "status": "PENDING",
+    "processing_uuid": "258fa739-da9f-4a13-862f-087841b2e5b9",
+    "is_chunk": false
+  },
+  {
+    "task_id": "7cf9dc3f-ac6c-431b-8d6f-01850f9c752d",
+    "video_name": "小米天际屏全景展示__雷军 _小米YU7 _小米汽车_1747984031_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:54",
+    "status": "PENDING",
+    "processing_uuid": "0d8a52bc-93a5-4bf6-8b4f-a763a72bb820",
+    "is_chunk": false
+  },
+  {
+    "task_id": "80f68066-cabf-440d-9d4d-7ddea25149c3",
+    "video_name": "小米YU7发布会超燃宣传片_流畅线条车身_精致内饰_帅呆了_看完有股忍不住下单的冲动___小米YU7_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:54",
+    "status": "PENDING",
+    "processing_uuid": "0a1c4b94-284d-4b5e-9114-f36220bbbd01",
+    "is_chunk": false
+  },
+  {
+    "task_id": "3dd6d012-66b5-45b6-8d71-97b88ae531b9",
+    "video_name": "小米yu7闪亮出场啦啦啦啦_小米Yu7 _小米发布会 _雷军年度演讲 _dou是好车 _流量_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:54",
+    "status": "PENDING",
+    "processing_uuid": "f192a0c3-173f-430d-b765-5f7492d26fc9",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b44dc1a7-8771-41d2-aea5-e75b3f0297db",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:54",
+    "status": "PENDING",
+    "processing_uuid": "4866e8fb-dbdd-4bf2-817b-19c439c6443a",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b6f6c293-8d7e-47d1-baa3-ddb726682e6f",
+    "video_name": "用热烈的掌声有请YU7_小米发布会名场面 _小米YU7 _雷军_1747982746_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:54",
+    "status": "PENDING",
+    "processing_uuid": "51c32a27-d914-4e37-9d95-1b729e93f476",
+    "is_chunk": false
+  },
+  {
+    "task_id": "779bc3e4-6314-4266-8386-91ea4f619682",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:54",
+    "status": "PENDING",
+    "processing_uuid": "0be13c05-215e-436d-b3ba-6cb9f268b6b0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c2465ea7-06f7-4ac3-954a-f2d99b35b49e",
+    "video_name": "小米YU7发布会超燃宣传片_流畅线条车身_精致内饰_帅呆了_看完有股忍不住下单的冲动___小米YU7_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:55",
+    "status": "PENDING",
+    "processing_uuid": "ca7c47cd-08f5-4e35-ac92-4bb1c24c3fbd",
+    "is_chunk": false
+  },
+  {
+    "task_id": "530373d2-4e4d-4b41-b461-8b96d2da9790",
+    "video_name": "小米yu7闪亮出场啦啦啦啦_小米Yu7 _小米发布会 _雷军年度演讲 _dou是好车 _流量_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:56",
+    "status": "PENDING",
+    "processing_uuid": "2aef4a0d-1f8e-4f8e-b32d-0b2ca4e833db",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8927484e-f44a-41d9-96ee-a0bf75b5ba20",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:56",
+    "status": "PENDING",
+    "processing_uuid": "d660a3a5-4007-4f3f-ae91-0f55a74969f7",
+    "is_chunk": false
+  },
+  {
+    "task_id": "314389f5-918e-4d91-91f9-ed2ae52f62b8",
+    "video_name": "用热烈的掌声有请YU7_小米发布会名场面 _小米YU7 _雷军_1747982746_0.mp4",
+    "knowledge_base_id": "682ac6ef7635e30d01cba37c",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 08:36:56",
+    "status": "PENDING",
+    "processing_uuid": "b6d18f5c-f531-4a16-987d-cdc7acb5aa06",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8951d9f4-44d0-4a0c-8533-6be31ef3729d",
+    "video_name": "沉浸式体验_小米YU7_懂车帝抢先试驾_璐鹏陪您看_1747983201_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:23:59",
+    "status": "PENDING",
+    "processing_uuid": "e897a7aa-bb2d-4e2e-97d8-5e96b9d94fa5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ca7cfea2-9e66-4a4f-84f3-04a8d4df2957",
+    "video_name": "深度体验小米YU7_竟然连仪表盘都取消了_ _小米YU7 _小米首款suv曝光 _车星计划 _小米Y_1747983197_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:23:59",
+    "status": "PENDING",
+    "processing_uuid": "87799274-550b-4354-b6a8-8e858ba2c678",
+    "is_chunk": false
+  },
+  {
+    "task_id": "91065f74-32b1-445d-a97c-be865329d220",
+    "video_name": "小米YU7 全球首拍__1747983198_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:23:59",
+    "status": "PENDING",
+    "processing_uuid": "c5d98ade-9779-4d1b-ac95-452fcacea7fc",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8b5c1010-cfeb-4fb4-b66d-8e6d5355c096",
+    "video_name": "小米YU7_全国首体验_ _小米YU7首发评测_1747983198_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:23:59",
+    "status": "PENDING",
+    "processing_uuid": "dc749861-af05-4bbe-afd8-ad02215e8534",
+    "is_chunk": false
+  },
+  {
+    "task_id": "871c18eb-f41c-4dd7-b5e3-3c80989bafb8",
+    "video_name": "yu7室内天际屏曝光_第一视角 _小米yu7发布_1747983572_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:23:59",
+    "status": "PENDING",
+    "processing_uuid": "3c318cc2-d5b8-4a50-9574-4fbdb064846f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "55c6aa4c-5a1a-4287-aa6d-6519792e091c",
+    "video_name": "设计理念视频 _小米YU7 继承小米汽车家族设计__是延续_也是进化__坐进车里_触摸到的_看到的__1747983572_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:23:59",
+    "status": "PENDING",
+    "processing_uuid": "fe380332-bd17-46b9-94da-7756738704da",
+    "is_chunk": false
+  },
+  {
+    "task_id": "039eb77b-7c91-4c46-9813-29ae22479ad6",
+    "video_name": "小米YU7登场音乐完整版_米粉自取  _小米YU7_1747983574_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:23:59",
+    "status": "PENDING",
+    "processing_uuid": "8c9f1e1a-43ff-40e8-9892-3f1d590beccb",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f4a17c59-99d1-4e70-b62a-5eaebe0639fe",
+    "video_name": "小米yu7宣传片_yu7 _雷军 _小米_1747983571_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:01",
+    "status": "PENDING",
+    "processing_uuid": "bac0797f-66ab-40d9-afd3-9eaee95edc41",
+    "is_chunk": false
+  },
+  {
+    "task_id": "57bdbc43-6e38-47e6-b7ab-da11e2bf351a",
+    "video_name": "小米yu7宣传片抢先欣赏_太帅啦_小米 _雷军 _小米yu7_1747983572_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:01",
+    "status": "PENDING",
+    "processing_uuid": "00c5a2ce-fd58-400a-8fed-69ed1a57d837",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c8bba1b9-a603-4ee9-a5b3-0a5f7cdec7dc",
+    "video_name": "能干翻 Model Y 吗_2 分钟速览小米 YU7_小米YU7首发评测 _小米YU7 _小米SU7_1747982951_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:01",
+    "status": "PENDING",
+    "processing_uuid": "3a29995b-e0ad-4989-a5eb-da342275b1d3",
+    "is_chunk": false
+  },
+  {
+    "task_id": "09c6887f-a085-4424-a642-1f1e682cc3b9",
+    "video_name": "小米YU7静态全网首发_雷总说不可能19万9_你们觉得卖多少钱合适__小米YU7_小米汽车_汽车人共_1747982951_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:01",
+    "status": "PENDING",
+    "processing_uuid": "45f7f364-82da-427c-9db2-0c5caed4acda",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f6d0862b-787a-4d4a-b010-914aa20c9af6",
+    "video_name": "小米YU7全网首次横评_特斯拉Model Y_智界R7 能否招架__小米YU7_特斯拉ModelY__1747982951_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:01",
+    "status": "PENDING",
+    "processing_uuid": "94616d8e-2723-4435-acba-611119e07515",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1029c648-e534-4024-8810-ce856792e53e",
+    "video_name": "宝藏壁纸-小米汽车YU7-宝石绿-动态手机壁纸墙纸 _小米YU7 _小米YU7宝石绿 _原图自取_屏_1747984031_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:01",
+    "status": "PENDING",
+    "processing_uuid": "b4cea355-a61c-44ae-8896-f4edce222600",
+    "is_chunk": false
+  },
+  {
+    "task_id": "44bc2910-74dc-47a3-a8d4-584e33894891",
+    "video_name": "外观亮相 小米汽车首款SUV __小米YU7 登场__小米YU7_御风而行_一条视频感受风采__1747984030_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:01",
+    "status": "PENDING",
+    "processing_uuid": "a0335a80-d337-4cdd-ada6-e074537e11ad",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a23f2c2e-21f4-4a87-9b73-0026b7851dd6",
+    "video_name": "小米天际屏全景展示__雷军 _小米YU7 _小米汽车_1747984031_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:03",
+    "status": "PENDING",
+    "processing_uuid": "7c94f216-f84c-45be-8023-28ef1ec0e629",
+    "is_chunk": false
+  },
+  {
+    "task_id": "91004e8f-bb30-42b7-956c-fa29b7c661e0",
+    "video_name": "小米YU7发布会超燃宣传片_流畅线条车身_精致内饰_帅呆了_看完有股忍不住下单的冲动___小米YU7_1747982747_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:03",
+    "status": "PENDING",
+    "processing_uuid": "b0f620d2-ddac-4092-86c9-1bdc4bb92395",
+    "is_chunk": false
+  },
+  {
+    "task_id": "5983e7e0-aef8-4666-8d00-1d1a6d537e11",
+    "video_name": "小米yu7闪亮出场啦啦啦啦_小米Yu7 _小米发布会 _雷军年度演讲 _dou是好车 _流量_1747982747_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:03",
+    "status": "PENDING",
+    "processing_uuid": "9df2af7f-e81c-46fe-9d00-8305bbf985da",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b5f4f4b7-a0f0-4453-aa6f-c7b52ebfb7ed",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:03",
+    "status": "PENDING",
+    "processing_uuid": "cf63efde-3225-418b-90b5-dacd39c17018",
+    "is_chunk": false
+  },
+  {
+    "task_id": "74f4645c-06ef-49e4-9515-24490e967d4f",
+    "video_name": "用热烈的掌声有请YU7_小米发布会名场面 _小米YU7 _雷军_1747982746_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:03",
+    "status": "PENDING",
+    "processing_uuid": "be12445f-6ede-46ed-bae9-67cfde4fda03",
+    "is_chunk": false
+  },
+  {
+    "task_id": "02625bf6-d46f-4f3a-99e4-02d4188a3aff",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:03",
+    "status": "PENDING",
+    "processing_uuid": "6e6c63b9-31ad-492a-8ea6-5c0eb3571af5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "70d8bb6c-e97b-41c7-9a9e-32404bc40d2a",
+    "video_name": "小米YU7发布会超燃宣传片_流畅线条车身_精致内饰_帅呆了_看完有股忍不住下单的冲动___小米YU7_1747982747_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:03",
+    "status": "PENDING",
+    "processing_uuid": "9a63a9d0-93ae-4a63-b489-0cdda5f67fb7",
+    "is_chunk": false
+  },
+  {
+    "task_id": "563d61b7-c82a-4021-a414-d301f923eb10",
+    "video_name": "小米yu7闪亮出场啦啦啦啦_小米Yu7 _小米发布会 _雷军年度演讲 _dou是好车 _流量_1747982747_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:05",
+    "status": "PENDING",
+    "processing_uuid": "f4b6d1a8-22f3-44c7-af9e-2f82f72137c7",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c10aede8-868a-4eb8-8326-9f59494eede0",
+    "video_name": "小米天际屏全景显示硬控我20s_未来已来__小米yu7 _小米发布会 _小米汽车 _雷军 _小米yu_1747982747_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:05",
+    "status": "PENDING",
+    "processing_uuid": "b81678e1-4122-4381-882f-b745f7ef7c16",
+    "is_chunk": false
+  },
+  {
+    "task_id": "529fb9de-f45d-44e9-ab12-1356de493dc2",
+    "video_name": "用热烈的掌声有请YU7_小米发布会名场面 _小米YU7 _雷军_1747982746_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:24:05",
+    "status": "PENDING",
+    "processing_uuid": "f14dffae-d8e2-4264-9faf-82318af3bd85",
+    "is_chunk": false
+  },
+  {
+    "task_id": "93734038-2877-4c96-a97c-3c75a0c09f99",
+    "video_name": "_跑山日常 _小米 偶遇小米yu7伪装车_这底盘支撑性和提速是相当不错啊_1747910249_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:29",
+    "status": "PENDING",
+    "processing_uuid": "7b6a171d-43c1-450f-9938-7ebf5998684c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "164f3ca4-a1e4-4197-a41c-99e080eb4b7e",
+    "video_name": "_抓拍_路上偶遇小米YU7无伪装实车_这底盘调校绝了__御妻可能超预期__小米汽车 _小米YU7参数_1747910249_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:29",
+    "status": "PENDING",
+    "processing_uuid": "d1a130ec-4f9b-4a19-92a9-7cc6e07518a4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "33586462-0e09-4b16-808a-99a2caaae865",
+    "video_name": "1分17秒_首发小米YU7AIGC影像_全方位视角无伪装_这个造型是你想要的样子吗__小米汽车 _雷_1747910554_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:29",
+    "status": "PENDING",
+    "processing_uuid": "90e4c98c-2960-4e8d-8527-cc7157365799",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1c3bbb23-c3e1-4010-b885-e41736413eb0",
+    "video_name": "沉浸式参观小米YU7 _ Su7 Ultra__小米su7 _小米YU7  _小米su7ultra _1747910556_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:29",
+    "status": "PENDING",
+    "processing_uuid": "c0949783-b56c-42db-8dab-fd0dce6dec59",
+    "is_chunk": false
+  },
+  {
+    "task_id": "35262928-9c62-453c-bf71-67ef41a8524a",
+    "video_name": "你们心心念念的YU7它来啦 沉浸纯享版_小米yu7外观 _小米yu7_1747910554_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:29",
+    "status": "PENDING",
+    "processing_uuid": "d67a3d31-0a3a-4993-bddd-2036e190f743",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9ca5befd-d438-4dc5-a751-5ae706f816f0",
+    "video_name": "小米YU7 5月22号晚七点准备发布了__小米Yu7_520_雷军_1747910403_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:29",
+    "status": "PENDING",
+    "processing_uuid": "1118756a-6d75-48ed-a1b8-441f6200275f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "7d973078-2879-486c-ad29-08c66f2d56dc",
+    "video_name": "小米YU7 官宣新配色 宝石绿 这颜色挺显高级_小米汽车 _yu7 _发布会 _dou是好车 _抖音_1747910402_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:29",
+    "status": "PENDING",
+    "processing_uuid": "066103fd-cd5e-437c-a2b4-619b9bb69bd8",
+    "is_chunk": false
+  },
+  {
+    "task_id": "19338207-5a09-4e89-8264-202f8ee2ead1",
+    "video_name": "小米yu7 天际全景展示_这你受得了么__雷军说YU7有不可替代的魅力  _我和我的小米汽车 _小米_1747910554_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:31",
+    "status": "PENDING",
+    "processing_uuid": "483038da-7e0d-44c1-9f97-fd804740e420",
+    "is_chunk": false
+  },
+  {
+    "task_id": "695dc915-d2ed-47ab-811d-525e6f0de4b8",
+    "video_name": "小米yu7_色彩_是表达自我的语言_御7的颜色怎么选呢_都这么好看__雷军 _小米 _小米汽车 _小_1747910403_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:31",
+    "status": "PENDING",
+    "processing_uuid": "b5d31d05-e445-44b5-84d7-d0f6ea4275a8",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6a3790e1-f1fe-4706-bf56-67a425e6caee",
+    "video_name": "小米yu7动态展示ai版_这次的绿色真帅__小米 _小米yu7 _小米汽车_1747910249_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:31",
+    "status": "PENDING",
+    "processing_uuid": "32a497f3-6743-4e82-b170-c2cff3b9891c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "0d89b79e-4c69-402c-abd3-adc6f5aefeaf",
+    "video_name": "小米YU7全新配色 宝石绿 质感无敌_小米yu7 _小米su7 _小米汽车_1747910403_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:31",
+    "status": "PENDING",
+    "processing_uuid": "ed724fea-2e77-40ba-a29f-88112773c541",
+    "is_chunk": false
+  },
+  {
+    "task_id": "3d3d205f-b067-49d3-8dc1-0e4e1b55cb01",
+    "video_name": "小米YU7全新配色 钛金属色 豪华质感_小米yu7 _小米su7 _雷军_1747910403_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:31",
+    "status": "PENDING",
+    "processing_uuid": "0571e28e-5da9-4f51-aa6f-e2b87b5001a6",
+    "is_chunk": false
+  },
+  {
+    "task_id": "4ebf688f-59ca-40d3-af16-d3ff326ca7d2",
+    "video_name": "小米YU7在武汉大学樱花下的瞬间_美炸了_这大灯看着真霸气_怎么不来个霞光紫来拍拍_不知道YU7有多_1747910553_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 09:27:31",
+    "status": "PENDING",
+    "processing_uuid": "c605eaea-971e-45b4-bff6-847657cb6fc6",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fec35f30-c650-40fd-8dd2-160febf06eec",
+    "video_name": "_跑山日常 _小米 偶遇小米yu7伪装车_这底盘支撑性和提速是相当不错啊_1747910249_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:04",
+    "end_time": "2025-05-23 11:06:14",
+    "status": "SUCCESS",
+    "processing_uuid": "6dee8389-88fd-452e-ae54-5e8f6666063b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "0822c21e-6145-4971-a00c-b37b2d6909f0",
+    "video_name": "_抓拍_路上偶遇小米YU7无伪装实车_这底盘调校绝了__御妻可能超预期__小米汽车 _小米YU7参数_1747910249_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:04",
+    "end_time": "2025-05-23 11:06:09",
+    "status": "SUCCESS",
+    "processing_uuid": "1c4f4467-2955-49a0-af7e-bd4b3b62800a",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b5c272c5-6857-43e1-8b2b-1e70a0708629",
+    "video_name": "1分17秒_首发小米YU7AIGC影像_全方位视角无伪装_这个造型是你想要的样子吗__小米汽车 _雷_1747910554_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:04",
+    "end_time": "2025-05-23 11:07:48",
+    "status": "SUCCESS",
+    "processing_uuid": "a172fc1e-9560-4844-81e4-63103ed19822",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ec1b8350-a514-4a46-aa11-941f6c0db386",
+    "video_name": "沉浸式参观小米YU7 _ Su7 Ultra__小米su7 _小米YU7  _小米su7ultra _1747910556_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:04",
+    "end_time": "2025-05-23 11:08:00",
+    "status": "SUCCESS",
+    "processing_uuid": "a57b6802-cd17-4b31-ba3a-6d89a0677808",
+    "is_chunk": false
+  },
+  {
+    "task_id": "745ba3d2-e281-49dc-857a-260b91d1d8ab",
+    "video_name": "你们心心念念的YU7它来啦 沉浸纯享版_小米yu7外观 _小米yu7_1747910554_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:04",
+    "end_time": "2025-05-23 11:06:24",
+    "status": "SUCCESS",
+    "processing_uuid": "e6a10545-90ca-4337-860b-2e289c565c8a",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1741bf05-11b1-4ee4-8f31-9719403436b4",
+    "video_name": "小米YU7 5月22号晚七点准备发布了__小米Yu7_520_雷军_1747910403_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:04",
+    "end_time": "2025-05-23 11:06:46",
+    "status": "SUCCESS",
+    "processing_uuid": "d0f821d5-2c9c-4266-af24-022d9e4a0089",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9dbe958f-20a0-489d-b3a8-c8290f5dc318",
+    "video_name": "小米YU7 官宣新配色 宝石绿 这颜色挺显高级_小米汽车 _yu7 _发布会 _dou是好车 _抖音_1747910402_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:04",
+    "end_time": "2025-05-23 11:06:30",
+    "status": "SUCCESS",
+    "processing_uuid": "aefd2cf2-af21-48fb-8c5b-776dff011c50",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d317671a-a8b8-401f-8fa4-de0b6801a778",
+    "video_name": "小米yu7 天际全景展示_这你受得了么__雷军说YU7有不可替代的魅力  _我和我的小米汽车 _小米_1747910554_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:09",
+    "end_time": "2025-05-23 11:06:43",
+    "status": "SUCCESS",
+    "processing_uuid": "12d3b767-50f1-4a93-8da0-35fe6cc2dd31",
+    "is_chunk": false
+  },
+  {
+    "task_id": "39195825-ebbb-423e-8180-e442d932f96b",
+    "video_name": "小米yu7_色彩_是表达自我的语言_御7的颜色怎么选呢_都这么好看__雷军 _小米 _小米汽车 _小_1747910403_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:14",
+    "end_time": "2025-05-23 11:06:19",
+    "status": "SUCCESS",
+    "processing_uuid": "1d7625a0-bc96-4cdb-b52e-56ce05626222",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f342d66e-76ca-4c2e-ae2b-cfd34bc24dd4",
+    "video_name": "小米yu7动态展示ai版_这次的绿色真帅__小米 _小米yu7 _小米汽车_1747910249_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:19",
+    "end_time": "2025-05-23 11:06:24",
+    "status": "SUCCESS",
+    "processing_uuid": "3b1b1cb5-d500-4b64-a9dc-1ea61f777f05",
+    "is_chunk": false
+  },
+  {
+    "task_id": "29fa95ab-6828-4c61-8391-6fdcbb2d4423",
+    "video_name": "小米YU7全新配色 宝石绿 质感无敌_小米yu7 _小米su7 _小米汽车_1747910403_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:24",
+    "end_time": "2025-05-23 11:06:39",
+    "status": "SUCCESS",
+    "processing_uuid": "a20afa30-feb0-42e6-8da6-ed8b991d542e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e2f92bd6-ce26-46dd-a31a-f89e3b5d4a01",
+    "video_name": "小米YU7全新配色 钛金属色 豪华质感_小米yu7 _小米su7 _雷军_1747910403_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:24",
+    "end_time": "2025-05-23 11:06:30",
+    "status": "SUCCESS",
+    "processing_uuid": "89b20af4-117b-4f4a-9ae7-cca1697bb345",
+    "is_chunk": false
+  },
+  {
+    "task_id": "19f29d24-fe22-4e61-8742-75ed811fa306",
+    "video_name": "小米YU7在武汉大学樱花下的瞬间_美炸了_这大灯看着真霸气_怎么不来个霞光紫来拍拍_不知道YU7有多_1747910553_0.mp4",
+    "knowledge_base_id": "68303e8fd78bc6762d762aca",
+    "brand_model": "小米YU7",
+    "start_time": "2025-05-23 11:06:30",
+    "end_time": "2025-05-23 11:06:46",
+    "status": "SUCCESS",
+    "processing_uuid": "4dcd88f7-8d87-472c-a171-875a2f94254c",
+    "is_chunk": false
+  }
+]

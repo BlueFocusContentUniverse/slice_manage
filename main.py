@@ -96,16 +96,19 @@ class VideoProcessor:
         }
 
         try:
-            # 移除文件重命名相关代码，直接使用原始视频路径
-            new_video_path = video_path  # 使用原始路径，不进行重命名
+            # 使用UUID重命名视频文件
+            file_extension = os.path.splitext(video_name)[1]
+            new_video_name = f"{video_uuid}{file_extension}"
+            new_video_path = os.path.join(os.path.dirname(video_path), new_video_name)
+            shutil.copy2(video_path, new_video_path)  # 复制而不是移动，保留原文件
             
             # 1. 预处理视频
-            """print(f"开始预处理视频: {video_name}")
-            final_video = self.preprocessor.process_video(
-                video_path=video_path,
-                #output_path=os.path.join(self.config.video_config['output_dir'], f"{video_name}_processed.mp4")
-            )
-            self.processing_status[video_name]['progress'] = 25"""
+            # print(f"开始预处理视频: {video_name}")
+            # final_video = self.preprocessor.process_video(
+            #     video_path=video_path,
+            #     #output_path=os.path.join(self.config.video_config['output_dir'], f"{video_name}_processed.mp4")
+            # )
+            # self.processing_status[video_name]['progress'] = 25
 
             # 2. 创建数据集
             print(f"创建数据集: {video_uuid}")
@@ -114,12 +117,12 @@ class VideoProcessor:
 
             # 3. 切片处理
 
-            print(f"开始视频切片: {video_uuid},素材路径：{video_path}")
+            print(f"开始视频切片: {video_uuid},素材路径：{new_video_path}")
             """file_name = "inpaint_out.mp4"
             final_video_name = os.path.join(video_path,file_name)"""
            
             slices = self.slicer.slice_video(
-                video_path=video_path,  # 使用原始视频路径
+                video_path=new_video_path,  # 使用重命名后的视频路径
                 #output_dir=os.path.join(self.config.video_config['frames_dir'], video_name),
                 threshold=self.config.slice_config['slice_threshold']
             )
@@ -132,10 +135,9 @@ class VideoProcessor:
             for idx, slice_path in enumerate(slice_paths, 1):
                 # 上传到 MinIO
                 print(f"处理切片 {idx}/{total_slices}: {slice_path}")
-                base_video_name = os.path.splitext(video_uuid)[0]
                 success,slice_store_info = self.minio_handler.upload_video_and_get_url(
                     video_path=slice_path,
-                    object_path=f"{base_video_name}/slice_{idx}.mp4"
+                    object_path=f"{video_uuid}/slice_{idx}.mp4"  # 使用UUID作为目录名
                 )
                 print(slice_store_info)
                 file_path = self.extract_file_path(slice_store_info)
@@ -164,15 +166,19 @@ class VideoProcessor:
                 'progress': 100
             })
             
-            # 移动到完成目录时使用原始文件名
+            # 移动原始文件到完成目录
             finished_dir = self.config.slice_config['finish_dir']
             os.makedirs(finished_dir, exist_ok=True)
             shutil.move(video_path, os.path.join(finished_dir, os.path.basename(video_path)))
-
+            
+            # 删除临时的重命名文件
+            if os.path.exists(new_video_path):
+                os.remove(new_video_path)
 
             return {
                 'status': 'success',
                 'video_name': video_name,
+                'video_uuid': video_uuid,  # 返回UUID以便追踪
                 'dataset_id': dataset_id,
                 'total_slices': total_slices,
                 'processing_time': (datetime.now() - self.processing_status[video_uuid]['start_time']).total_seconds()
@@ -218,48 +224,62 @@ class VideoProcessor:
 
         return results
     
-    async def process_all_videos_batch(self, input_dir: str, batch_size: int = 10, max_concurrent: int = 10, max_retries: int = 3) -> List[Dict]:
+    async def process_all_videos_batch(self, input_dir: str, batch_size: int = 5, max_retries: int = 3) -> List[Dict]:
         try:
             # 首先检查并更新标签映射
-            await self.tagging_service.update_folder_mappings(str(Path(input_dir).parent))
-            self.logger.info("标签映射更新完成")
+            # await self.tagging_service.update_folder_mappings(str(Path(input_dir).parent))
+            # self.logger.info("标签映射更新完成")
 
             video_files = [f for f in os.listdir(input_dir) 
                         if f.endswith(('.mp4', '.avi', '.mov'))]
             
-            async def process_batch(batch: List[str]) -> List[Dict]:
-                tasks = [
-                    self.process_single_video(os.path.join(input_dir, video))
-                    for video in batch
-                ]
-                results = await gather(*tasks, return_exceptions=True)
-                return results
-            
             results: List[Dict] = []
-            for i in range(0, len(video_files), batch_size):
+            total_videos = len(video_files)
+            
+            self.logger.info(f"开始处理 {total_videos} 个视频文件，每批 {batch_size} 个")
+            
+            # 按批次处理视频
+            for i in range(0, total_videos, batch_size):
+                # 获取当前批次的视频文件
                 batch = video_files[i:i + batch_size]
-                for retry in range(max_retries):
-                    batch_results = await process_batch(batch)
+                self.logger.info(f"开始处理第 {i//batch_size + 1} 批, 共 {len(batch)} 个视频")
+                
+                # 依次处理当前批次的每个视频
+                batch_results = []
+                for video in batch:
+                    video_path = os.path.join(input_dir, video)
+                    self.logger.info(f"处理视频: {video}")
                     
-                    for video, res in zip(batch, batch_results):
-                        if isinstance(res, Exception):
-                            self.logger.error(f"处理视频 {video} 失败: {str(res)}")
+                    # 重试机制
+                    for retry in range(max_retries):
+                        try:
+                            result = await self.process_single_video(video_path)
+                            batch_results.append(result)
+                            self.logger.info(f"视频 {video} 处理成功")
+                            break  # 处理成功，跳出重试循环
+                        except Exception as e:
+                            self.logger.error(f"处理视频 {video} 失败 (尝试 {retry+1}/{max_retries}): {str(e)}")
                             self.logger.error(traceback.format_exc())
-                            if retry == max_retries - 1:
-                                results.append({
+                            if retry == max_retries - 1:  # 最后一次重试失败
+                                batch_results.append({
                                     'status': 'failed',
                                     'video_name': video,
-                                    'error': str(res)
+                                    'error': str(e)
                                 })
-                        else:
-                            results.append(res)
-                            break
+                            else:
+                                await asyncio.sleep(2)  # 等待一段时间再重试
                 
-                # 更新进度
-                processed_count = sum(1 for res in results if not isinstance(res, Exception))
-                total_count = len(video_files)
-                progress = processed_count / total_count * 100
+                # 将当前批次结果添加到总结果中
+                results.extend(batch_results)
+                
+                # 更新总进度
+                processed_count = i + len(batch)
+                progress = min(processed_count / total_videos * 100, 100)
                 self.processing_status['batch_progress'] = progress
+                self.logger.info(f"批处理进度: {progress:.2f}%")
+                
+                # 完成一批后等待一小段时间，让系统有时间恢复资源
+                await asyncio.sleep(1)
             
             return results
         except Exception as e:
@@ -291,27 +311,27 @@ class VideoProcessor:
             self.load_config_from_dir(subdir)
 
             # 处理该子目录下的所有视频
-            subdir_results = await self.process_all_videos_batch(subdir_path, batch_size, max_concurrent, max_retries)
+            subdir_results = await self.process_all_videos_batch(subdir_path, batch_size, max_retries)
             results.extend(subdir_results)
 
         return results
 
-    async def cleanup_temp_files(self, video_name: str):
+    async def cleanup_temp_files(self, video_uuid: str):
         """
         清理处理过程中产生的临时文件
         params:
-            video_name: 视频名称
+            video_uuid: 视频UUID
         """
         try:
             # 清理帧目录
-            frames_path = os.path.join(self.config.video_config['frames_dir'], video_name)
+            frames_path = os.path.join(self.config.video_config['frames_dir'], video_uuid)
             if os.path.exists(frames_path):
                 for file in os.listdir(frames_path):
                     os.remove(os.path.join(frames_path, file))
                 os.rmdir(frames_path)
 
             # 清理掩码目录
-            mask_path = os.path.join(self.config.video_config['mask_dir'], video_name)
+            mask_path = os.path.join(self.config.video_config['mask_dir'], video_uuid)
             if os.path.exists(mask_path):
                 for file in os.listdir(mask_path):
                     os.remove(os.path.join(mask_path, file))

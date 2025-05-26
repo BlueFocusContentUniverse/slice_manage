@@ -113,9 +113,22 @@ class VideoAnalyzer:
     def analyze_video_slice(self, 
                           video_path: str, 
                           title: str,
-                          prev_analysis_result: str = "") -> AnalysisResult:
-        """分析视频片段"""
+                          prev_analysis_result: str = "",
+                          custom_analysis_dimensions: str = None) -> AnalysisResult:
+        """
+        分析视频片段
+        
+        Args:
+            video_path: 视频片段路径
+            title: 视频标题
+            prev_analysis_result: 前一个视频片段的分析结果（用于保持连贯性）
+            custom_analysis_dimensions: 自定义的解析维度，可以替换默认的维度列表
+            
+        Returns:
+            AnalysisResult: 分析结果对象
+        """
         try:
+            self.logger.info(f"开始分析视频片段: {video_path}")
             # 抽取帧和音频
             frames_count = self.config.get('frames_per_slice', 2)  # 每个片段抽取的帧数
             self.logger.info(f"开始从视频片段抽取 {frames_count} 帧")
@@ -127,7 +140,11 @@ class VideoAnalyzer:
             # self.logger.info(f"音频提取成功: {audio_path}")
 
             # 构建提示词
-            prompt = self._build_prompt(title, prev_analysis_result)
+            prompt = self._build_prompt(
+                title=title, 
+                prev_analysis_result=prev_analysis_result,
+                custom_analysis_dimensions=custom_analysis_dimensions
+            )
             
             # 构建 API 请求内容
             messages = []
@@ -185,6 +202,7 @@ class VideoAnalyzer:
             while retry_count < max_retries:
                 try:
                     self.logger.info(f"发送API请求 (尝试 {retry_count + 1}/{max_retries})")
+                    # self.logger.info(f"messages: {messages}")
                     api_start_time = time.time()
                     
                     response = self.client.chat.completions.create(
@@ -215,9 +233,9 @@ class VideoAnalyzer:
                     return AnalysisResult(
                         success=True,
                         analysis_info=analysis_info,
+                        message="分析完成",
                         frames=frames,
-                        audio_path=" ",
-                        token_usage=token_usage
+                        audio_path=''
                     )
                     
                 except Exception as e:
@@ -245,31 +263,44 @@ class VideoAnalyzer:
             self.logger.error(error_msg)
             return AnalysisResult(False, message=error_msg)
 
-    def _build_prompt(self, title:str = "", prev_analysis_result: str = "") -> str:
-        """构建提示词"""
+    def _build_prompt(self, title:str = "", prev_analysis_result: str = "", custom_analysis_dimensions: str = None) -> str:
+        """
+        构建提示词
+        
+        Args:
+            title: 视频标题
+            prev_analysis_result: 前一个视频片段的分析结果
+            custom_analysis_dimensions: 自定义的解析维度，可以替换默认的维度列表
+            
+        Returns:
+            str: 完整的提示词
+        """
+        # 默认的解析维度
+        default_dimensions = (
+            "1. **人物动作**：开车、下车、上车、行走、开车门、敲车门、说话等等。\n"
+            "2. **内容主体**：如车头特写、车尾特写、侧面特写、轮胎特写、车灯特写、内饰特写等。\n"
+            "3. **主体状态描述**：如加速、刹车、转弯、漂移、越野、稳定巡航、疾驰而过等。\n"
+            "4. **相机视角**：俯视视角、仰视视角、平视视角、鸟瞰视角等。\n"
+            "5. **地点**：城市街道、高速公路、乡村道路、海滨公路等。\n"
+            "6. **时间**：清晨、上午、中午、下午、黄昏、夜晚。\n"
+            f"7. **品牌**："
+        )
+        
+        # 使用自定义维度或默认维度
+        analysis_dimensions = custom_analysis_dimensions if custom_analysis_dimensions else default_dimensions
+        
+        # 构建完整提示词
         return (
             "### 汽车推广短视频片段解析提示词\n"
-            f"这是一个关于{self.config['analyze_point']}关于{self.config['analyze_point']}的短视频片段，"
-            f"视频标题为{title}。视频解析的目的是从多个角度拆解内容，为剪辑师提供有价值的素材片段信息，"
-            f"以便在后续的剪辑中保持连贯性并提升传播效果,描述重点放在{self.config['analyze_point']}上，"
+            f"视频解析的目的是从多个角度拆解内容，为剪辑师提供有价值的素材片段信息，"
             "同时视频的标题作为全视频内容的概览提供了重要的参考价值。如果视频标题没有意义，请忽略\n"
             f"**为了保证解析出的内容连贯，我会提供上一个片段的解析信息：'{prev_analysis_result}'。"
             "如果没有提供上一个片段的内容，则说明这是第一个片段。**\n"
             "**请根据以下角度解析视频内容：**\n"
-            "1. **人物动作**：开车、下车、上车、行走、开车门、敲车门、说话等等。\n"
-            "2. **车辆局部描述**：车头特写、车尾特写、侧面特写、轮胎特写、车灯特写、内饰特写等。\n"
-            "3. **车辆状态描述**：加速、刹车、转弯、漂移、越野、稳定巡航、疾驰而过等。\n"
-            "4. **相机视角**：俯视视角、仰视视角、平视视角、鸟瞰视角等。\n"
-            "5. **地点**：城市街道、高速公路、乡村道路、海滨公路等。\n"
-            "6. **时间**：清晨、上午、中午、下午、黄昏、夜晚。\n"
-            f"7. **品牌车型**：{self.config['analyze_point']}\n"
-            f"输出时请输出一段画面描述和一个表格，其中画面描述包含以上7个解析维度，"
-            f"如果画面中有车，一定是{self.config['analyze_point']}，禁止出现其他汽车品牌和型号，"
+            f"{analysis_dimensions}\n"
+            f"输出时请输出一段画面描述和一个表格，其中画面描述包含以上解析维度，"
             "如果没有车，品牌车型直接输出为无！！！\n"
             "请严格按照示例表格输出解析结果，一条视频只有一个镜头，禁止输出多个镜头。如果视频中没有相关信息，直接输出无\n"
             "请将音频时长作为镜头时长，如果音频时长为0，请输出2秒\n"
-            "**示例表格：**\n"
-            "| 镜头时长 | 人物动作 | 车辆局部描述 | 车辆状态描述 | 相机视角 | 地点 | 时间 | 品牌车型 |\n"
-            "|----------|----------|--------------|--------------|----------|------|--------|----------|\n"
-            f"| 4秒      | 说话     | 车灯特写     | 转弯         | 平视视角  | 乡村道路 | 下午   | {self.config['analyze_point']} |"
+           
         )
