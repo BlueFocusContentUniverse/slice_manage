@@ -118,6 +118,36 @@ class VideoSlicer:
                 self.logger.exception("详细错误信息:")
                 raise RuntimeError(f"场景检测失败: {str(e)}")
             
+            # 兜底机制：如果没有检测出场景或只有一个场景，直接返回整个视频
+            if len(scenes) <= 1:
+                self.logger.info("没有检测到多个场景，跳过分片，返回整个视频")
+                print("没有检测到场景变化，保持原视频不分片")
+                
+                # 创建包含整个视频的slice_info
+                video_name = Path(video_path).stem
+                self.slice_info = {
+                    "original_video": video_path,
+                    "total_duration": duration,
+                    "total_frames": frame_count,
+                    "fps": fps,
+                    "segments": [{
+                        "index": 1,
+                        "start_time": 0.0,
+                        "end_time": duration,
+                        "duration": duration,
+                        "start_frame": 0,
+                        "end_frame": frame_count,
+                        "output_path": video_path  # 直接使用原视频路径
+                    }]
+                }
+                
+                return SliceResult(
+                    success=True,
+                    slice_info=self.slice_info,
+                    frames_count=frame_count,
+                    duration=duration
+                )
+            
             # 执行分片
             self.slice_info = self._perform_slicing(
                 video_path, 

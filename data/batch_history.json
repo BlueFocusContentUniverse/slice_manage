@@ -1551,5 +1551,2275 @@
     "status": "SUCCESS",
     "processing_uuid": "4dcd88f7-8d87-472c-a171-875a2f94254c",
     "is_chunk": false
+  },
+  {
+    "task_id": "a6bdc277-4c18-4bcc-9923-e20e62b11388",
+    "video_name": "3_1747987615.mp4",
+    "knowledge_base_id": "6826efa7b840399c8b402064",
+    "brand_model": "",
+    "start_time": "2025-05-29 04:02:17",
+    "status": "PENDING",
+    "processing_uuid": "8c42b9e3-0d02-4069-a63e-77c94cd71bf3",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6c4bb636-8196-43a6-b6d6-7108722b3032",
+    "video_name": "3_1747987615.mp4",
+    "knowledge_base_id": "6826efa7b840399c8b402064",
+    "brand_model": "ceshi",
+    "start_time": "2025-05-29 04:02:36",
+    "status": "PENDING",
+    "processing_uuid": "50ed72fa-53b0-4f01-b442-9037c44c2af1",
+    "is_chunk": false
+  },
+  {
+    "task_id": "906eb8a3-27c9-4ef1-b51e-984954fd12d3",
+    "video_name": "5.16_test_大何_理想_.mp4",
+    "knowledge_base_id": "6826efa7b840399c8b402064",
+    "brand_model": "ceshi",
+    "start_time": "2025-05-29 04:03:26",
+    "status": "PENDING",
+    "processing_uuid": "03e1c4d9-d828-4b9a-ae19-a62c0c86fff5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fadd32a3-4aef-4da8-bce1-7f5b6bdb372d",
+    "video_name": "problem.solving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 pro",
+    "start_time": "2025-06-04 02:43:18",
+    "status": "PENDING",
+    "processing_uuid": "fab791f2-4942-42e7-a61c-8621918a0d09",
+    "is_chunk": false
+  },
+  {
+    "task_id": "25e473d8-f849-4d2f-b2bf-362142801bc6",
+    "video_name": "Problemsolving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 pro",
+    "start_time": "2025-06-04 02:43:18",
+    "status": "PENDING",
+    "processing_uuid": "e9cc802b-56b6-4ce4-acfe-6ed954137f63",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d3d5ab64-b121-4dae-a825-0c2371bd1110",
+    "video_name": "problemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 pro",
+    "start_time": "2025-06-04 02:43:18",
+    "status": "PENDING",
+    "processing_uuid": "6a96778a-47a7-43f5-83b9-e55807b4beaa",
+    "is_chunk": false
+  },
+  {
+    "task_id": "908e4200-6429-46bf-9c28-eea673e48c11",
+    "video_name": "promblemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 pro",
+    "start_time": "2025-06-04 02:43:18",
+    "status": "PENDING",
+    "processing_uuid": "1a2a99c8-4822-4fd7-99ae-a0aeb55280f6",
+    "is_chunk": false
+  },
+  {
+    "task_id": "7b13d9e4-00b4-4c74-8ac6-0d62c0a9890f",
+    "video_name": "ps..mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 pro",
+    "start_time": "2025-06-04 02:43:19",
+    "status": "PENDING",
+    "processing_uuid": "ac83e62d-8873-4f05-97fd-f34d1a1f2587",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1b6787e9-bc5c-4cc6-959c-6ff61b166abd",
+    "video_name": "ps.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 pro",
+    "start_time": "2025-06-04 02:43:19",
+    "status": "PENDING",
+    "processing_uuid": "531e78a6-9982-4ef6-ac4d-62ec64b0e45b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "671a025e-925c-4f9b-9853-ac365b4d4c6e",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:24:06",
+    "status": "PENDING",
+    "processing_uuid": "78324ef3-8133-4675-a5b9-fa374a8ae8e2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "61c965fb-b584-43c8-b325-6bb6d6cfadde",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:24:06",
+    "status": "PENDING",
+    "processing_uuid": "12e010e8-fcc7-417e-a880-9a8ce5f82493",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1657285c-3de2-422d-8c48-b0cb36912c1e",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:24:06",
+    "status": "PENDING",
+    "processing_uuid": "d0bfccb5-5d6a-4b71-8813-7e4fb69b8505",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2ef9c69e-3882-43f7-8fdd-f3f4848bad63",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:24:31",
+    "status": "PENDING",
+    "processing_uuid": "af1b06f5-e6ea-4374-9f2b-bbae97b413a8",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9783dddd-0e6e-4d4a-a26b-79d69c44195c",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:24:31",
+    "status": "PENDING",
+    "processing_uuid": "381da3a5-c455-48bd-9c39-c50976a5f27b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f3698d4c-7271-4924-8d55-43fe3e7ff8d5",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:24:31",
+    "status": "PENDING",
+    "processing_uuid": "5cbd1e1c-6287-4097-ac82-d687e89db0db",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8fa787c2-002b-4957-b3c0-ed8228debd9b",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:25:12",
+    "status": "PENDING",
+    "processing_uuid": "831f52a8-3e14-4871-9c41-1b1bf21c14f4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e7211544-35e3-4c41-90e3-f6526a3c9be8",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:25:12",
+    "status": "PENDING",
+    "processing_uuid": "17b4c2a4-f4ff-4214-92be-3d33d92add9c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b102a2f9-8d70-41bc-ba05-a555d6426f86",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:25:12",
+    "status": "PENDING",
+    "processing_uuid": "0c8ab728-cf9e-486b-9e51-1fd3265c819c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cc3e89b6-742a-459b-bede-0fd9b7bbc5a4",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:25:40",
+    "status": "PENDING",
+    "processing_uuid": "7d9b3376-91bb-4044-b567-6537dc1b8011",
+    "is_chunk": false
+  },
+  {
+    "task_id": "512b11d6-3aa8-46f0-b1d4-7242e3a2c92e",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:25:40",
+    "status": "PENDING",
+    "processing_uuid": "1be3de1c-70b9-4c36-867e-b235d8629f28",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cafdf3bb-625d-45a3-ae18-07af39fdfcf7",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 03:25:40",
+    "status": "PENDING",
+    "processing_uuid": "d2774f66-3bd1-42a9-aed7-594cb880dfda",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b77ae417-105b-4e36-9600-ed7cf786eb16",
+    "video_name": "飞书20250408-140425.mp4",
+    "knowledge_base_id": "683fba00c8a9537d9d20ae5c",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:29:22",
+    "status": "PENDING",
+    "processing_uuid": "db16e5c0-9b74-445b-a997-3ff0207a2db4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "4d57bb9d-0373-4b4c-be97-94da1eb68699",
+    "video_name": "鎏金产品.mp4",
+    "knowledge_base_id": "683fba00c8a9537d9d20ae5c",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:29:22",
+    "status": "PENDING",
+    "processing_uuid": "3fc8c898-2ff6-496f-972e-2d34fa588157",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b771048e-7e70-4a6e-8d8a-e700e9b58c7b",
+    "video_name": "鎏金次抛-1.mp4",
+    "knowledge_base_id": "683fba00c8a9537d9d20ae5c",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:29:22",
+    "status": "PENDING",
+    "processing_uuid": "97d9a7bd-835d-4830-9213-4e8329deafa1",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9cf18781-d79d-4940-9d90-194de1f33097",
+    "video_name": "鎏金次抛-2.mp4",
+    "knowledge_base_id": "683fba00c8a9537d9d20ae5c",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:29:22",
+    "status": "PENDING",
+    "processing_uuid": "5cb4737e-e710-471a-8c7d-8d9de70eb0fd",
+    "is_chunk": false
+  },
+  {
+    "task_id": "74816483-8a04-4225-bafd-823a427d5431",
+    "video_name": "鎏金次抛-3.mp4",
+    "knowledge_base_id": "683fba00c8a9537d9d20ae5c",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:29:22",
+    "status": "PENDING",
+    "processing_uuid": "ddbe8a47-fded-4497-a7c3-f5982c9764ca",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8fdb3590-bf56-4fd5-96af-f874ece07a4b",
+    "video_name": "鎏金次抛-4.mp4",
+    "knowledge_base_id": "683fba00c8a9537d9d20ae5c",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:29:22",
+    "status": "PENDING",
+    "processing_uuid": "77b32e1c-c14f-4fed-9691-90fbc71965d0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "7488bc2b-ef8a-40cc-b565-ad8a9b3afda7",
+    "video_name": "鎏金次抛0318_机制视频.mp4",
+    "knowledge_base_id": "683fba00c8a9537d9d20ae5c",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:29:23",
+    "status": "PENDING",
+    "processing_uuid": "b02ce69c-e930-4193-84cd-c47deded6aa2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a6826848-dba5-414c-8b07-fc38e323f725",
+    "video_name": "鎏金次抛0318_机制视频2.mp4",
+    "knowledge_base_id": "683fba00c8a9537d9d20ae5c",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:29:24",
+    "status": "PENDING",
+    "processing_uuid": "b7159791-b0ce-4e1a-a2c9-106623622d3a",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2b39f0cf-63c2-44ec-b23c-989e0850765c",
+    "video_name": "鎏金次抛功效介绍.mp4",
+    "knowledge_base_id": "683fba00c8a9537d9d20ae5c",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:29:24",
+    "status": "PENDING",
+    "processing_uuid": "421b3b8e-2bc5-41d9-bc2d-a8e2fb78d87f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f7d6d1c6-d216-4718-aa6e-534b99ae8fa1",
+    "video_name": "飞书20250408-140425.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:32:26",
+    "status": "PENDING",
+    "processing_uuid": "ebb85db2-7438-4d46-a785-7253a9992822",
+    "is_chunk": false
+  },
+  {
+    "task_id": "209834ec-da15-476a-97e7-ea1434e25cf8",
+    "video_name": "鎏金产品.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:32:26",
+    "status": "PENDING",
+    "processing_uuid": "5c4ee564-981d-4d8a-bf74-cbe60872e0c3",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9c5d5dff-2ee5-47b6-97f5-3a427c27c411",
+    "video_name": "鎏金次抛-1.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:32:26",
+    "status": "PENDING",
+    "processing_uuid": "ecff3836-7342-4ae5-8b02-8765c2868600",
+    "is_chunk": false
+  },
+  {
+    "task_id": "67419d7a-7ff0-47f8-8eb9-b8e40d3ffb3f",
+    "video_name": "鎏金次抛-2.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:32:26",
+    "status": "PENDING",
+    "processing_uuid": "0c76f929-d28c-4460-a45d-b03c525e305f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "40cc95ef-9ee4-4ce0-a1ad-a1cebaa11de2",
+    "video_name": "鎏金次抛-3.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:32:26",
+    "status": "PENDING",
+    "processing_uuid": "3d6a0d4f-5355-4e12-a3b1-aa8339df11a0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b537e90d-5cb4-44e1-beb2-ef6c22511a40",
+    "video_name": "鎏金次抛-4.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:32:26",
+    "status": "PENDING",
+    "processing_uuid": "c89e2dda-49e4-4325-baf3-1db51ef0fdc3",
+    "is_chunk": false
+  },
+  {
+    "task_id": "37d98d81-3ded-405a-ac64-195c54047677",
+    "video_name": "鎏金次抛0318_机制视频.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:32:26",
+    "status": "PENDING",
+    "processing_uuid": "cdb67ac4-a0a9-43e3-8cec-3691fa65c702",
+    "is_chunk": false
+  },
+  {
+    "task_id": "459098f4-dc13-4037-afb8-db7824e7d679",
+    "video_name": "鎏金次抛0318_机制视频2.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:32:27",
+    "status": "PENDING",
+    "processing_uuid": "94d400b9-fe18-4954-aa98-ce2bad32a700",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cd3ff885-918a-444b-8527-dd930c67c4fc",
+    "video_name": "鎏金次抛功效介绍.mp4",
+    "knowledge_base_id": "683fb9a2c8a9537d9d20ad81",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 03:32:27",
+    "status": "PENDING",
+    "processing_uuid": "2acfc4aa-a3fd-49b1-891d-76b0015d9877",
+    "is_chunk": false
+  },
+  {
+    "task_id": "32dfbe70-7026-4a64-9a4d-48d04ae6e4ab",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 04:06:15",
+    "status": "PENDING",
+    "processing_uuid": "4892db87-222d-4146-8a0d-af7d94bfb9bb",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a7f8448e-6da0-4075-9639-5c33638983b6",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 04:06:15",
+    "status": "PENDING",
+    "processing_uuid": "3ffe1131-6c04-4d5b-bff7-e7e9f4b4c40c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c5b2a0b2-679d-449d-92cf-939a6f51bdca",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 04:06:15",
+    "status": "PENDING",
+    "processing_uuid": "b75c0491-f504-4b94-b1e0-81984f850ca2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2b636584-82d2-4583-b066-d944b9635a0e",
+    "video_name": "1.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:21",
+    "status": "PENDING",
+    "processing_uuid": "6adecb49-bce5-420a-baf3-1e3e6cd35222",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b204f54f-4831-4243-89aa-69b5d2725a41",
+    "video_name": "10月30日.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:21",
+    "status": "PENDING",
+    "processing_uuid": "9ea56b95-779b-47e1-8bae-e36b70aba662",
+    "is_chunk": false
+  },
+  {
+    "task_id": "88f00cfa-52c6-4519-8da6-30194f61bfbb",
+    "video_name": "次抛-拆箱-1.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:21",
+    "status": "PENDING",
+    "processing_uuid": "d4c2342d-26a3-4ad2-a6a8-5079817a5605",
+    "is_chunk": false
+  },
+  {
+    "task_id": "bd01c2d6-8087-4de3-81d1-7dcc5cbfed24",
+    "video_name": "次抛拆箱-88vip.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:21",
+    "status": "PENDING",
+    "processing_uuid": "f8f8766d-65c9-40d3-9726-bbab5ae537da",
+    "is_chunk": false
+  },
+  {
+    "task_id": "619b3f36-8d7c-4436-a9fa-2c4b7413aa5f",
+    "video_name": "次抛人物补水好物.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:21",
+    "status": "PENDING",
+    "processing_uuid": "e21f4a1b-b884-4e18-a52a-4049c5d15504",
+    "is_chunk": false
+  },
+  {
+    "task_id": "7d128c2e-d6ac-4cf6-bb5e-2312901fb187",
+    "video_name": "次抛双十二机制.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:21",
+    "status": "PENDING",
+    "processing_uuid": "83d28381-33d2-42de-90ce-855e2df207c4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "25bb1f0a-eedc-4f72-92fd-d22795a4a757",
+    "video_name": "抖音评价视频.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:21",
+    "status": "PENDING",
+    "processing_uuid": "8d09cffa-d513-4aad-b562-be2d7225e8fc",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f9497562-e4a4-43cd-8ba4-d6e636d5f59e",
+    "video_name": "飞书20241030-111813.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:23",
+    "status": "PENDING",
+    "processing_uuid": "512d5ed6-cc93-4cd3-9129-ce0d34ddce1e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "0e95f2cb-877c-4360-bc9d-d3b03bf7aed7",
+    "video_name": "飞书20241030-111833.MP4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:23",
+    "status": "PENDING",
+    "processing_uuid": "48140b64-88ca-4350-a6b2-15119a086eb0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a3d63c4e-a5b0-48f2-b69c-3f26eb222e1a",
+    "video_name": "飞书20241112-162305.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:23",
+    "status": "PENDING",
+    "processing_uuid": "bf15350c-c0d4-416a-b49b-9c8f463c1a43",
+    "is_chunk": false
+  },
+  {
+    "task_id": "50fa5d1a-c520-4f71-bf83-0b11a70686ae",
+    "video_name": "飞书20241113-173729 (1).mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:23",
+    "status": "PENDING",
+    "processing_uuid": "79ca8639-62bf-4361-bf50-305fc4d6f493",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c3b51d9e-624c-422b-ab54-95442d356b3f",
+    "video_name": "飞书20241226-161650.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:23",
+    "status": "PENDING",
+    "processing_uuid": "c056f296-9673-4d0a-89b4-b6a7d4583a2c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d4c4880e-ce5e-4141-b20a-13d0ddd22566",
+    "video_name": "机制买一送一2改.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:23",
+    "status": "PENDING",
+    "processing_uuid": "d495795b-ffad-4864-820b-e5f4efeba83c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ee26bd94-af78-402a-8238-7ad40c7f4936",
+    "video_name": "开箱类型-次抛.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:23",
+    "status": "PENDING",
+    "processing_uuid": "88c2f9fd-8d38-413f-829a-d152cbc2bfd0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "7ac84212-348a-41f1-a7ef-fa71481f2b92",
+    "video_name": "年货节-1mp4.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:25",
+    "status": "PENDING",
+    "processing_uuid": "a2d9d7d2-ed2f-4e2a-a6f2-30043105d0a0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fae59479-cf4c-417f-8805-f32c2db10e9d",
+    "video_name": "年货节-2.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:25",
+    "status": "PENDING",
+    "processing_uuid": "7b4a883c-66f3-429e-bfe0-6698c2efbb46",
+    "is_chunk": false
+  },
+  {
+    "task_id": "43d46c14-b824-4818-96b7-d9171a4732ed",
+    "video_name": "三八-1.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:25",
+    "status": "PENDING",
+    "processing_uuid": "6ad42e12-45c2-4073-acc4-21f73aa525df",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2030bbd3-9f45-454f-9418-5ce72f73d5f4",
+    "video_name": "三八.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:25",
+    "status": "PENDING",
+    "processing_uuid": "ad8be320-861a-4530-a052-deb9ba230a8d",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c3295a62-e828-4c49-a8d7-f3c8a8b2cbd7",
+    "video_name": "视频13-NO.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:25",
+    "status": "PENDING",
+    "processing_uuid": "dca27af4-08b2-465d-b796-28bcd19f9331",
+    "is_chunk": false
+  },
+  {
+    "task_id": "336a9bc1-3c36-473e-aa91-0e1073f241ee",
+    "video_name": "视频14.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:25",
+    "status": "PENDING",
+    "processing_uuid": "51ea0aea-058d-40be-9f6f-49773a48fd81",
+    "is_chunk": false
+  },
+  {
+    "task_id": "bb1c2655-e8fb-4017-a340-73663d28df79",
+    "video_name": "视频15-NO.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:25",
+    "status": "PENDING",
+    "processing_uuid": "d53207cb-b116-4ae1-9f55-5bfb9cd644d9",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8533555b-dd62-482a-9835-b3acb0f6f347",
+    "video_name": "视频16.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:27",
+    "status": "PENDING",
+    "processing_uuid": "721f88d8-8cd8-4f73-bbe1-4170842f7836",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9bc0802b-f337-4c3b-af89-4c7c68d7f9da",
+    "video_name": "双十二提前-次抛.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:27",
+    "status": "PENDING",
+    "processing_uuid": "1ff92c0e-11ea-4753-b571-5664517e6d19",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e1d89508-d11a-4a08-8ed5-c67cba90cdd0",
+    "video_name": "无机制 次抛.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:27",
+    "status": "PENDING",
+    "processing_uuid": "3297ebb7-cd72-4fa6-b9d4-1293acf8ec23",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6ce6560e-3442-4a5e-93cc-2b8039b933e4",
+    "video_name": "盈润次抛_成分介绍.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:27",
+    "status": "PENDING",
+    "processing_uuid": "5241a7ff-f5b8-4ad6-98c6-3da960d3140e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cc990410-4677-4936-acda-ae929195d94b",
+    "video_name": "盈润次抛.MP4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:27",
+    "status": "PENDING",
+    "processing_uuid": "b0b9179e-a6ca-4d6a-9e4b-b3616f7836a0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "093af424-13dd-4c22-a835-13f185584ecd",
+    "video_name": "盈润次抛2改.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:27",
+    "status": "PENDING",
+    "processing_uuid": "fc4f2ba8-5b4a-412d-9025-05265d5aa1db",
+    "is_chunk": false
+  },
+  {
+    "task_id": "10bc1d42-6586-4f08-bcae-0e081b0503ad",
+    "video_name": "盈润次抛成分2.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:27",
+    "status": "PENDING",
+    "processing_uuid": "fcce2e8d-eec3-4757-afc8-621d1e6deb0d",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b7820248-090c-44e0-9e87-e05890d3c008",
+    "video_name": "盈润次抛赋能.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:28",
+    "status": "PENDING",
+    "processing_uuid": "6328f138-2ea3-4772-aeb2-bbff94c9299f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "4d734b59-ed45-4d41-866e-27c3ecb05830",
+    "video_name": "盈润次抛功效.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:28",
+    "status": "PENDING",
+    "processing_uuid": "d84be1b1-1257-4430-a48e-62f6f515c8be",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6b4606a2-31a5-4336-b3e2-34997d3c4168",
+    "video_name": "盈润次抛机制3月26日.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:28",
+    "status": "PENDING",
+    "processing_uuid": "1a2a5a95-2e7a-4917-9f26-0c63e609613a",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f668c90f-15a4-4d37-8137-51b7352c6351",
+    "video_name": "盈润次抛机制0401.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:28",
+    "status": "PENDING",
+    "processing_uuid": "74f96095-9779-402a-81b7-40561bc914a8",
+    "is_chunk": false
+  },
+  {
+    "task_id": "db6ccefc-c2cd-4495-927d-48ecff88a1b9",
+    "video_name": "盈润次抛千川-年货节.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力盈润次抛",
+    "start_time": "2025-06-04 04:10:28",
+    "status": "PENDING",
+    "processing_uuid": "cbfce135-31e9-487b-b576-f62157588a64",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cf98802f-b36f-4ad7-b187-08faebe71521",
+    "video_name": "飞书20250408-140425.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 04:11:41",
+    "status": "PENDING",
+    "processing_uuid": "fe5fc18c-c630-4d8f-8dd9-ee090dd2b328",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cf4186ef-6f57-4acc-9629-34cd34834910",
+    "video_name": "鎏金产品.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 04:11:41",
+    "status": "PENDING",
+    "processing_uuid": "c09fb118-4a95-4dd4-818e-3b1c67338c66",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6bc0bfdf-c2d0-43f3-8fdd-bc8a6e8fd9d3",
+    "video_name": "鎏金次抛-1.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 04:11:41",
+    "status": "PENDING",
+    "processing_uuid": "3c4c80ee-c622-4a0c-9030-0bf5d3cb25ba",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d586a8f3-9ca6-4289-b990-32e3087eed1e",
+    "video_name": "鎏金次抛-2.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 04:11:41",
+    "status": "PENDING",
+    "processing_uuid": "68b9acb2-8e23-45a5-a7d2-b84491fdb865",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a9a7d627-b10c-41fe-80f0-97be986f5bfc",
+    "video_name": "鎏金次抛-3.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 04:11:41",
+    "status": "PENDING",
+    "processing_uuid": "b439c983-73bb-46e9-ba7e-a67c261f83a4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d53daa3e-28ec-4183-8693-eb8c13bf79cd",
+    "video_name": "鎏金次抛-4.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 04:11:41",
+    "status": "PENDING",
+    "processing_uuid": "f1844ff3-79b4-456f-825f-81b2a040eb0c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d7bb1a55-7b65-4048-b8a1-28d61bcce0ce",
+    "video_name": "鎏金次抛0318_机制视频.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 04:11:41",
+    "status": "PENDING",
+    "processing_uuid": "2130d0f6-2c94-4b2b-9bc3-3a9b655eef78",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ac2a2d4a-a7be-4574-9007-d8b1070722bf",
+    "video_name": "鎏金次抛0318_机制视频2.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 04:11:42",
+    "status": "PENDING",
+    "processing_uuid": "a889e242-0330-4b10-936f-35ffa139883e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "39e93f92-0375-4e09-8fcf-4d8b566df775",
+    "video_name": "鎏金次抛功效介绍.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 04:11:42",
+    "status": "PENDING",
+    "processing_uuid": "97c4c8e5-d571-45b6-9b72-d8e34e30d699",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2b7919c1-f3ee-4755-9e81-cf7597f124a7",
+    "video_name": "聚源工厂-1.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:14:43",
+    "status": "PENDING",
+    "processing_uuid": "fa333436-36c5-48ad-abf4-d5356feb2c1e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d5ef52dc-5541-4547-8e16-94bc5601348f",
+    "video_name": "聚源工厂-2.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:14:43",
+    "status": "PENDING",
+    "processing_uuid": "1632b78b-1580-488a-a579-3eb3ace59007",
+    "is_chunk": false
+  },
+  {
+    "task_id": "02ce8b5c-b67a-4e3a-8755-75f7be48aab9",
+    "video_name": "聚源工厂-3.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:14:43",
+    "status": "PENDING",
+    "processing_uuid": "9a481034-4ee9-42fa-a48a-055325c140ce",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2fa5a257-6f86-43f4-b396-c4156c984e04",
+    "video_name": "聚源工厂.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:14:43",
+    "status": "PENDING",
+    "processing_uuid": "1976b9be-6271-4d54-ad46-301a4d3d1627",
+    "is_chunk": false
+  },
+  {
+    "task_id": "484d226b-8314-4a61-a867-60ad218be920",
+    "video_name": "聚源介绍.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:14:43",
+    "status": "PENDING",
+    "processing_uuid": "3248ea43-04b1-4ddd-b26e-5428e4f51367",
+    "is_chunk": false
+  },
+  {
+    "task_id": "88692919-6311-47c2-ba86-6999dd14631c",
+    "video_name": "聚源生物.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:14:43",
+    "status": "PENDING",
+    "processing_uuid": "89bdb2da-5f66-4f75-b7bb-dd0179273784",
+    "is_chunk": false
+  },
+  {
+    "task_id": "bc32b784-fca6-43cf-9847-0b9c2130b90b",
+    "video_name": "聚源医疗.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:14:43",
+    "status": "PENDING",
+    "processing_uuid": "0e8b1997-afa9-4018-81cc-ce3ac8d96add",
+    "is_chunk": false
+  },
+  {
+    "task_id": "455a5064-9010-4234-89ca-f7609fc9f34f",
+    "video_name": "冻干球可视化-1.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:16:42",
+    "status": "PENDING",
+    "processing_uuid": "d9874ddd-c569-4d7a-a6fd-4f7975f98542",
+    "is_chunk": false
+  },
+  {
+    "task_id": "744e9899-3e0b-4e63-8284-37a8caf0b16f",
+    "video_name": "冻干球可视化-2.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:16:42",
+    "status": "PENDING",
+    "processing_uuid": "a725e09e-dae5-4ac3-95db-1c2fb0292b50",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1036a54d-e919-4585-8fce-4679737ea5ee",
+    "video_name": "胶原可视化.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 04:16:42",
+    "status": "PENDING",
+    "processing_uuid": "b8644d9d-78e3-4784-b218-7024291d7747",
+    "is_chunk": false
+  },
+  {
+    "task_id": "211db194-6206-4a2f-8285-1e0331a5ec76",
+    "video_name": "problem.solving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:23:50",
+    "status": "PENDING",
+    "processing_uuid": "4149074d-066f-4302-8d25-e4b2b3479700",
+    "is_chunk": false
+  },
+  {
+    "task_id": "82e0c42b-3174-4ebe-9cca-2f31f1267571",
+    "video_name": "Problemsolving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:23:50",
+    "status": "PENDING",
+    "processing_uuid": "19aef39e-ff19-4806-8d59-b1214af2e249",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f2c46983-3780-4bb0-a33d-43f52ffef73d",
+    "video_name": "problemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:23:50",
+    "status": "PENDING",
+    "processing_uuid": "da67d03f-d298-4f2e-92f1-9262df7b19a2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "21de86c6-50bd-4414-afc4-3bfd2757524c",
+    "video_name": "promblemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:23:50",
+    "status": "PENDING",
+    "processing_uuid": "3fc41bd6-1950-4739-b1fa-1ef63a1f5f26",
+    "is_chunk": false
+  },
+  {
+    "task_id": "da4e5fc7-c23b-4bf2-bd3b-4060d4cfb377",
+    "video_name": "ps..mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:23:50",
+    "status": "PENDING",
+    "processing_uuid": "3b9940ba-8f77-4602-be8a-69b4a29a225c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d362683a-9b31-4978-8b95-a0302ed43d5b",
+    "video_name": "ps.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:23:50",
+    "status": "PENDING",
+    "processing_uuid": "56240327-f299-46db-abc1-42a1f9cca168",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9ed0774a-0ed8-4e8b-b3ae-da657e814c87",
+    "video_name": "problem.solving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:24:29",
+    "status": "PENDING",
+    "processing_uuid": "693b4b73-305e-4f31-93bb-f17e23b9e871",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8acd8391-fdd6-446d-bce3-214b8da256a6",
+    "video_name": "Problemsolving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:24:29",
+    "status": "PENDING",
+    "processing_uuid": "e4e47141-173e-451f-bcc1-12dde69bdc11",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9c4fe890-72dd-4f84-a79e-8fb7e615ed91",
+    "video_name": "problemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:24:29",
+    "status": "PENDING",
+    "processing_uuid": "8e5cde01-626c-4aa4-b36d-833b909b8bbf",
+    "is_chunk": false
+  },
+  {
+    "task_id": "023034b9-7d6b-4c39-a340-10c3200eeb7a",
+    "video_name": "promblemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:24:29",
+    "status": "PENDING",
+    "processing_uuid": "f4d18a4f-69eb-496e-9a78-212c9f1d8298",
+    "is_chunk": false
+  },
+  {
+    "task_id": "beec75cc-4ab7-4150-97aa-b4c178c80d8a",
+    "video_name": "ps..mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:24:29",
+    "status": "PENDING",
+    "processing_uuid": "8151c21a-d0e0-4e2b-b586-434496274811",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cfdce06f-ad73-4061-ac6a-3b5abe2ea01e",
+    "video_name": "ps.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:24:29",
+    "status": "PENDING",
+    "processing_uuid": "aa98d6fc-4cf2-4ee9-90ab-34652072d9ca",
+    "is_chunk": false
+  },
+  {
+    "task_id": "730ec269-9f06-4555-830f-efaa4c14d6c8",
+    "video_name": "problem.solving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:25:21",
+    "status": "PENDING",
+    "processing_uuid": "8e25c516-1d06-43a1-9d53-c361574217dd",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f1a855d2-0eec-42ea-b724-2e299a554757",
+    "video_name": "Problemsolving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:25:21",
+    "status": "PENDING",
+    "processing_uuid": "fd2a7423-cdac-4cd4-93ba-4de9bffd75ce",
+    "is_chunk": false
+  },
+  {
+    "task_id": "0d697dc5-4d0a-4076-8f0e-ab043d71a128",
+    "video_name": "problemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:25:21",
+    "status": "PENDING",
+    "processing_uuid": "37bde3fe-d59a-421d-a2d2-4f302c8ecc1a",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d6a36454-9925-4de2-b9f9-6967b3bf72d4",
+    "video_name": "promblemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:25:21",
+    "status": "PENDING",
+    "processing_uuid": "a45d4cdf-3fbb-4400-86bd-cfd001582d4c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "203d61dc-e5e2-43c8-be53-3701c8d405de",
+    "video_name": "ps..mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:25:21",
+    "status": "PENDING",
+    "processing_uuid": "a046937e-0598-4942-ac24-6ceda6efdbc1",
+    "is_chunk": false
+  },
+  {
+    "task_id": "22611b0d-87e6-4ee8-a74d-fa25242e2e0e",
+    "video_name": "ps.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:25:21",
+    "status": "PENDING",
+    "processing_uuid": "beddec5e-9f97-49de-8c6b-1e61c9f0aee0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9601b7b7-3e50-4390-81d6-f8648070675c",
+    "video_name": "problem.solving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:26:42",
+    "status": "PENDING",
+    "processing_uuid": "cbdc0121-8f03-4416-a83a-d004a1fd5547",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e05c4b74-eeab-48d6-895f-3ad18de78f6e",
+    "video_name": "Problemsolving_去字幕.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:26:42",
+    "status": "PENDING",
+    "processing_uuid": "4e9bade6-9256-4c89-ac13-dcd65e3eadb1",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1c537b01-2616-441c-b5c8-05d457238855",
+    "video_name": "problemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:26:42",
+    "status": "PENDING",
+    "processing_uuid": "a9a8031c-69a6-408f-83d2-c7deddc818ff",
+    "is_chunk": false
+  },
+  {
+    "task_id": "46850274-786c-4d76-a83d-92239e8ba68d",
+    "video_name": "promblemsolving.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:26:42",
+    "status": "PENDING",
+    "processing_uuid": "bf17dfca-9822-4b88-b0b2-862a07556c5d",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a92b0219-3e0e-4740-baef-d39fe3607c5e",
+    "video_name": "ps..mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:26:42",
+    "status": "PENDING",
+    "processing_uuid": "e4b47928-4f7d-4027-9d30-f8970a6f7819",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ccb54695-260b-4a0c-849f-23b4bef9dca7",
+    "video_name": "ps.mp4",
+    "knowledge_base_id": "68395c335d5a53af1565bbf8",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:26:42",
+    "status": "PENDING",
+    "processing_uuid": "5e84ebfa-d5d9-4202-b6af-2a11471a4588",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a0402ba9-452f-4748-b5bb-d96f79f62a71",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 04:52:37",
+    "status": "PENDING",
+    "processing_uuid": "cf2ed468-cd55-49b5-8edb-691c96959013",
+    "is_chunk": false
+  },
+  {
+    "task_id": "113fe98b-a89b-4cb0-a1f8-f3d853d99144",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 04:52:37",
+    "status": "PENDING",
+    "processing_uuid": "ac0d166d-d58a-46ce-a09e-80dcdfbe089e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "33741e70-682f-432d-91f2-2b2159d13095",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 04:52:37",
+    "status": "PENDING",
+    "processing_uuid": "8432d8f1-597a-4900-89d4-06f821af0956",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a36d6531-d8e3-41be-b348-abaca7bcd121",
+    "video_name": "o.ne-click_去字幕.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:08",
+    "status": "PENDING",
+    "processing_uuid": "90c57f00-f5ec-4187-a11e-146c5c1d80cf",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ea9badc7-6706-48d0-a89f-26325fe50fe2",
+    "video_name": "one--click_去字幕.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:08",
+    "status": "PENDING",
+    "processing_uuid": "fe434c49-8457-4866-8572-3642bb645dbe",
+    "is_chunk": false
+  },
+  {
+    "task_id": "5dcf15b3-3303-4b63-918c-9104aedc86ff",
+    "video_name": "one-click 2.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:08",
+    "status": "PENDING",
+    "processing_uuid": "a8723cfd-5db2-42f3-9d2a-80179876223f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "26332a4e-c00a-4711-a9f4-7dacc33a5454",
+    "video_name": "One-click.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:08",
+    "status": "PENDING",
+    "processing_uuid": "ba82627f-1689-4ca2-97b3-7df5d1ba6108",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2c65512b-3c0c-4838-903b-332f3e14a2b6",
+    "video_name": "one-click2_去字幕.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:08",
+    "status": "PENDING",
+    "processing_uuid": "548cb452-dfae-46aa-88fa-62a40db65e36",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1715d1af-b6f5-4c8f-a7b9-d21d0216519d",
+    "video_name": "one-click2.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:08",
+    "status": "PENDING",
+    "processing_uuid": "dd5bdb83-8d86-4499-8c0f-3bdb9318a38c",
+    "is_chunk": false
+  },
+  {
+    "task_id": "437f38bb-a046-42ef-89f5-5f430bd0e166",
+    "video_name": "one-click3.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:08",
+    "status": "PENDING",
+    "processing_uuid": "73362f41-29a0-4b27-803f-6cef9af483c5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "77db2c70-f9cb-4c2f-a6fa-ee27abcee6d4",
+    "video_name": "oneclick.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:10",
+    "status": "PENDING",
+    "processing_uuid": "87d32e87-b502-48a0-84d9-c31ec3929841",
+    "is_chunk": false
+  },
+  {
+    "task_id": "93c99454-fb5e-4c58-a6d9-41607f90c6b5",
+    "video_name": "oneclick4.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:10",
+    "status": "PENDING",
+    "processing_uuid": "b41857f0-7197-41f3-9309-95fabcf01636",
+    "is_chunk": false
+  },
+  {
+    "task_id": "07cfe3e5-0040-4219-b309-78cede3b73cb",
+    "video_name": "o.ne-click_去字幕.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:41",
+    "status": "PENDING",
+    "processing_uuid": "91dc2733-bbbd-46ca-bf0d-040534bc8fba",
+    "is_chunk": false
+  },
+  {
+    "task_id": "93135b80-8291-4ab6-a6f0-849dcb43bda5",
+    "video_name": "one--click_去字幕.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:41",
+    "status": "PENDING",
+    "processing_uuid": "4336cbd5-985b-4a8d-bf56-581ffe2bf2ec",
+    "is_chunk": false
+  },
+  {
+    "task_id": "682d60fc-4d6c-491e-b4b7-137ba60d3b93",
+    "video_name": "one-click 2.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:41",
+    "status": "PENDING",
+    "processing_uuid": "561aa262-21da-4518-80e3-bb3635d92e08",
+    "is_chunk": false
+  },
+  {
+    "task_id": "646ec467-d9ff-4386-90ae-73d06366c09e",
+    "video_name": "One-click.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:41",
+    "status": "PENDING",
+    "processing_uuid": "eb557052-6b03-49a8-a01a-07334c2c552f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d64ee360-80c6-425c-a31e-216b0cbb4e41",
+    "video_name": "one-click2_去字幕.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:41",
+    "status": "PENDING",
+    "processing_uuid": "a76bd458-35d7-4424-8422-967400d2eb73",
+    "is_chunk": false
+  },
+  {
+    "task_id": "3dca9594-e94c-451c-a289-30830bdfde2c",
+    "video_name": "one-click2.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:41",
+    "status": "PENDING",
+    "processing_uuid": "2d4b8b2f-fcc8-4324-88d0-f84e5fda7e02",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e3a13966-ea0a-429c-b70c-750d620cfc29",
+    "video_name": "one-click3.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:41",
+    "status": "PENDING",
+    "processing_uuid": "c8f4a8fb-7879-467b-bd39-3eecdc087a78",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6b1703c7-13a4-4735-81b2-c9758a799abe",
+    "video_name": "oneclick.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:42",
+    "status": "PENDING",
+    "processing_uuid": "a6877960-a1e4-4ee2-a1e8-c0ad09827031",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cc769608-7d81-4d36-be7d-c107b96fff02",
+    "video_name": "oneclick4.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:54:42",
+    "status": "PENDING",
+    "processing_uuid": "7c73f7b8-12fe-4f32-a95b-6d1f04e45769",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9bf8cc5b-5a3e-4e27-bd0c-5414126ffe54",
+    "video_name": "o.ne-click_去字幕.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:55:04",
+    "status": "PENDING",
+    "processing_uuid": "a1113e2b-66e3-4bd2-9d92-ed250d859dda",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ebc31113-176e-44e9-9014-101cf5473883",
+    "video_name": "one--click_去字幕.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:55:04",
+    "status": "PENDING",
+    "processing_uuid": "c9ab64db-2930-42bd-916b-4eec9e3511ed",
+    "is_chunk": false
+  },
+  {
+    "task_id": "c31b7c0d-859b-430e-a145-d1e058b5b26b",
+    "video_name": "one-click 2.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:55:04",
+    "status": "PENDING",
+    "processing_uuid": "8fc68335-f82b-4702-8a11-28570606be49",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2280454b-cc26-4b5c-816c-d62a8116e867",
+    "video_name": "One-click.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:55:04",
+    "status": "PENDING",
+    "processing_uuid": "73fb28d1-b7c6-447f-9094-ddc279adc239",
+    "is_chunk": false
+  },
+  {
+    "task_id": "dd0e0e8c-896e-4d94-9735-791c0a4ec719",
+    "video_name": "one-click2_去字幕.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:55:04",
+    "status": "PENDING",
+    "processing_uuid": "9d59fa12-230e-4a4b-809b-482c101ebb88",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cfba8abd-bbd8-469b-82ab-e4fa009a6051",
+    "video_name": "one-click2.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:55:04",
+    "status": "PENDING",
+    "processing_uuid": "b652c623-2f98-41e5-a2c6-8627747390a6",
+    "is_chunk": false
+  },
+  {
+    "task_id": "31cfe67c-003a-4c50-b2aa-656dd239d61f",
+    "video_name": "one-click3.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:55:04",
+    "status": "PENDING",
+    "processing_uuid": "c723fdde-844a-48e9-9178-c1627a32f8f8",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a6142f84-673b-4a68-908c-11ec8149a494",
+    "video_name": "oneclick.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:55:05",
+    "status": "PENDING",
+    "processing_uuid": "640e11a9-aebe-4629-93f1-4946e71bed95",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b048ff87-6988-4518-a95b-c825e87ac7c2",
+    "video_name": "oneclick4.mp4",
+    "knowledge_base_id": "683eb2e2c8a9537d9d1e5bea",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:55:05",
+    "status": "PENDING",
+    "processing_uuid": "39ec59c6-25d2-4ad9-b04c-05b15ccfb446",
+    "is_chunk": false
+  },
+  {
+    "task_id": "470ce7bf-2b01-4a35-ab83-62fa977f874f",
+    "video_name": "photo.mp4",
+    "knowledge_base_id": "683eb405c8a9537d9d1e77fb",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:56:06",
+    "status": "PENDING",
+    "processing_uuid": "5a946691-5b43-4619-b8c2-317538d72020",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2e277889-e5d7-4fd7-8329-60d9139ee33a",
+    "video_name": "photoedit.mp4",
+    "knowledge_base_id": "683eb405c8a9537d9d1e77fb",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:56:06",
+    "status": "PENDING",
+    "processing_uuid": "16d3ae84-ea1c-4acd-924d-242f74c28bea",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ac656964-06ea-4ad5-92da-0bc83aeca229",
+    "video_name": "photoedit2.mp4",
+    "knowledge_base_id": "683eb405c8a9537d9d1e77fb",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:56:06",
+    "status": "PENDING",
+    "processing_uuid": "4152dfb8-bfcd-4d8f-8dbc-060f4f7b3c1d",
+    "is_chunk": false
+  },
+  {
+    "task_id": "99cc9c29-aa97-4fa2-a3d6-da71fd450df4",
+    "video_name": "photoerase_去字幕.mp4",
+    "knowledge_base_id": "683eb405c8a9537d9d1e77fb",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:56:06",
+    "status": "PENDING",
+    "processing_uuid": "462ad1a2-4344-449d-81ea-999b69682b09",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a7922483-5f32-44e7-8ccb-077257a225da",
+    "video_name": "photo.mp4",
+    "knowledge_base_id": "683eb405c8a9537d9d1e77fb",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:56:13",
+    "status": "PENDING",
+    "processing_uuid": "39e7b17d-81d4-4a44-b1fa-225ff6310004",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d46b25b2-1e1b-4c88-9f2c-6936969262be",
+    "video_name": "photoedit.mp4",
+    "knowledge_base_id": "683eb405c8a9537d9d1e77fb",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:56:13",
+    "status": "PENDING",
+    "processing_uuid": "c238991e-af7c-4604-9166-75059026e081",
+    "is_chunk": false
+  },
+  {
+    "task_id": "970d5fef-a468-4b87-acf7-107359877e6b",
+    "video_name": "photoedit2.mp4",
+    "knowledge_base_id": "683eb405c8a9537d9d1e77fb",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:56:13",
+    "status": "PENDING",
+    "processing_uuid": "37e3dd4a-6088-4b80-ab64-8d3d2ec1acca",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2554fef4-7203-47c8-b6bc-29e90c8be570",
+    "video_name": "photoerase_去字幕.mp4",
+    "knowledge_base_id": "683eb405c8a9537d9d1e77fb",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 04:56:13",
+    "status": "PENDING",
+    "processing_uuid": "7b59fa67-9c03-4db4-b745-d21b7864a194",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f6534c98-97a8-4d03-a7fd-848828c03a16",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fd311c8a9537d9d2189e4",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 05:01:27",
+    "status": "PENDING",
+    "processing_uuid": "f9be7b7d-db88-4eea-a44f-a19ceaa0e945",
+    "is_chunk": false
+  },
+  {
+    "task_id": "363b66f3-f821-43cd-9990-7e64ad346fb3",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fd311c8a9537d9d2189e4",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 05:01:27",
+    "status": "PENDING",
+    "processing_uuid": "4b94ac9d-67b5-4257-84c5-0f2ec738371b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "18064f2d-a522-4017-9743-6bf58da3bd1a",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fd311c8a9537d9d2189e4",
+    "brand_model": "Tecno Camon 40 Pro",
+    "start_time": "2025-06-04 05:01:27",
+    "status": "PENDING",
+    "processing_uuid": "dc729c24-cda5-43b1-b3dc-a5fca6e5022b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "22457dda-5fc9-4a3c-b5ee-0ec230b7bb97",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:03:31",
+    "status": "PENDING",
+    "processing_uuid": "d51a9dfc-06c0-4113-89be-ac30ae1366d8",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ee7577f7-7232-4230-9c0a-ac8b55dcc957",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:03:31",
+    "status": "PENDING",
+    "processing_uuid": "8980f633-6330-41a9-8c8a-aae5399adda5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f7a7a581-6af1-4268-9182-e416b388ca2f",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:03:31",
+    "status": "PENDING",
+    "processing_uuid": "40165f03-33fb-4a10-986c-ef4e39b9ad9b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d775d46f-f434-4926-9956-69190ae05901",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:05:51",
+    "status": "PENDING",
+    "processing_uuid": "33ed1e89-070c-43c0-acf8-a14cef80cddd",
+    "is_chunk": false
+  },
+  {
+    "task_id": "69e20895-a0ab-47cc-b3bc-54d61a69e936",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:05:51",
+    "status": "PENDING",
+    "processing_uuid": "2ecb2eef-709e-405f-b53c-672630f8714d",
+    "is_chunk": false
+  },
+  {
+    "task_id": "eeff441c-0e04-4aea-b4dc-0c98f641372b",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:05:51",
+    "status": "PENDING",
+    "processing_uuid": "3bba69a5-c12e-4ca7-9ab1-4529b8a0ccea",
+    "is_chunk": false
+  },
+  {
+    "task_id": "25d75c70-8e2a-44c4-96d6-3374fb4fbf2c",
+    "video_name": "冻干面膜.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 05:07:09",
+    "status": "PENDING",
+    "processing_uuid": "cb4d0975-fb0b-4e00-9e78-0409595767b4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "5bac004e-f062-414e-ab5f-217737c5595f",
+    "video_name": "冻干面膜0327.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 05:07:09",
+    "status": "PENDING",
+    "processing_uuid": "17e2c230-e263-49d8-99d0-3f1d51bd4052",
+    "is_chunk": false
+  },
+  {
+    "task_id": "1a702671-2dd4-49dc-a1e5-46948eec07d2",
+    "video_name": "飞书20241113-173729.mp4",
+    "knowledge_base_id": "683fc5e6c8a9537d9d210078",
+    "brand_model": "人源活力冻干面膜",
+    "start_time": "2025-06-04 05:07:09",
+    "status": "PENDING",
+    "processing_uuid": "20f71ca5-d836-4b7c-a3ea-b4db31a668b7",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f1e59116-38a6-409b-a6f7-b37294fee190",
+    "video_name": "飞书20250408-140425.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:16:03",
+    "status": "PENDING",
+    "processing_uuid": "8a0b89a4-9a30-45f1-a47d-2d415c7f83bc",
+    "is_chunk": false
+  },
+  {
+    "task_id": "22f7aaa9-760d-4d1f-867b-49c81a299d07",
+    "video_name": "鎏金产品.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:16:03",
+    "status": "PENDING",
+    "processing_uuid": "e6d006a7-6f2f-4060-85fc-43a7fa9b4997",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6f862e9c-ab06-44fc-8675-f2a8b316baae",
+    "video_name": "鎏金次抛-1.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:16:03",
+    "status": "PENDING",
+    "processing_uuid": "4cca1edd-4bce-4bc3-9926-2d5dee7e1251",
+    "is_chunk": false
+  },
+  {
+    "task_id": "19a3b20a-8feb-43d8-bb19-01470796c895",
+    "video_name": "鎏金次抛-2.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:16:03",
+    "status": "PENDING",
+    "processing_uuid": "51a00e2a-6364-44f4-8261-036e67fd1b89",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a5c4254d-db32-4a01-8f4b-322c47ed496a",
+    "video_name": "鎏金次抛-3.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:16:03",
+    "status": "PENDING",
+    "processing_uuid": "ec2a144d-8548-453e-8872-6b443f4bb9a4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "db2eda48-8c77-4529-8a83-2f7ba59c648a",
+    "video_name": "鎏金次抛-4.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:16:03",
+    "status": "PENDING",
+    "processing_uuid": "195454fa-9795-43a6-b7cf-c139ba0acc99",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ef7526b7-3abb-4039-aaae-a044e53c38ea",
+    "video_name": "鎏金次抛0318_机制视频.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:16:03",
+    "status": "PENDING",
+    "processing_uuid": "ef08f2b4-7d47-4450-aacf-f58bb7ca82fd",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a3274dfb-0255-41b8-bfb5-2e9590192c09",
+    "video_name": "鎏金次抛0318_机制视频2.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:16:05",
+    "status": "PENDING",
+    "processing_uuid": "f35cca15-dcdd-4385-afd2-45fb0faa08a0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "48d0da9c-f26e-4972-a23d-99d6f41e1c9e",
+    "video_name": "鎏金次抛功效介绍.mp4",
+    "knowledge_base_id": "683fc6b7c8a9537d9d2108a3",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:16:05",
+    "status": "PENDING",
+    "processing_uuid": "f9d62854-5e70-4d47-af0e-fb760933b25e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "57f4e131-b1c9-42d7-b570-b60586a176c9",
+    "video_name": "1.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:29",
+    "status": "PENDING",
+    "processing_uuid": "a44b6bbd-408b-4f91-871f-1f7f9ee31c81",
+    "is_chunk": false
+  },
+  {
+    "task_id": "143e1ccf-b2a3-4cea-9893-0e0091fb1f6c",
+    "video_name": "10月30日.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:29",
+    "status": "PENDING",
+    "processing_uuid": "35cdf1e9-6dd4-4e2e-a62a-4754eea9b443",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9173d6e6-7f1b-42f6-aa62-9f357589014d",
+    "video_name": "次抛-拆箱-1.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:29",
+    "status": "PENDING",
+    "processing_uuid": "895154c5-6e76-4bbc-a192-4cf6cd6b6396",
+    "is_chunk": false
+  },
+  {
+    "task_id": "f23206bf-1a2a-4b01-99be-c1e7de4f1598",
+    "video_name": "次抛拆箱-88vip.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:29",
+    "status": "PENDING",
+    "processing_uuid": "4be3ace6-10d7-4186-9a98-a1ea7153b8d6",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6cd288c7-53e5-4dc1-9b0f-579ce38a62c6",
+    "video_name": "次抛人物补水好物.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:29",
+    "status": "PENDING",
+    "processing_uuid": "747760ef-af0c-4ea2-a179-918d6aa5dbf9",
+    "is_chunk": false
+  },
+  {
+    "task_id": "83f9c13b-923b-4931-b7fe-b92575e27297",
+    "video_name": "次抛双十二机制.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:29",
+    "status": "PENDING",
+    "processing_uuid": "87155690-e002-442b-8c5c-3fbc63ecf0c4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d1d30f5e-043e-4305-a88a-ce59ef8430d4",
+    "video_name": "抖音评价视频.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:29",
+    "status": "PENDING",
+    "processing_uuid": "e30fdfa6-ffb0-4147-84f8-af12a28fb20d",
+    "is_chunk": false
+  },
+  {
+    "task_id": "5c1ffc9a-2019-495e-b32c-58d17b950f62",
+    "video_name": "飞书20241030-111813.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:31",
+    "status": "PENDING",
+    "processing_uuid": "666844b0-c7e8-4af7-944b-d4bcaa93d2a6",
+    "is_chunk": false
+  },
+  {
+    "task_id": "38045583-7933-455e-92b0-31dd2b7898ae",
+    "video_name": "飞书20241030-111833.MP4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:31",
+    "status": "PENDING",
+    "processing_uuid": "f212f93f-1ac6-4632-bf24-1c9395716f21",
+    "is_chunk": false
+  },
+  {
+    "task_id": "033febcb-0842-4a7d-980e-aaaceeb8b006",
+    "video_name": "飞书20241112-162305.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:31",
+    "status": "PENDING",
+    "processing_uuid": "2dd642e1-9a18-472e-bbf4-c0914756e5d5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9c836f82-43fe-4059-9261-00096585dba2",
+    "video_name": "飞书20241113-173729 (1).mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:31",
+    "status": "PENDING",
+    "processing_uuid": "d9614c8d-bc7b-4bdc-b325-73f6f68d72fc",
+    "is_chunk": false
+  },
+  {
+    "task_id": "efc13ae4-8a5a-4bc6-99ea-20e67b5bdd0e",
+    "video_name": "飞书20241226-161650.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:31",
+    "status": "PENDING",
+    "processing_uuid": "dd9abd01-23a3-4ff2-ae52-9be31ab8ed00",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fc11a726-df57-46da-b849-efdf8d6e5efb",
+    "video_name": "机制买一送一2改.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:31",
+    "status": "PENDING",
+    "processing_uuid": "5c4ee902-5f51-4878-b2f1-24deb951cd2f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "2be044a9-ac0f-45db-bcb1-29b9b8054bf6",
+    "video_name": "开箱类型-次抛.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:31",
+    "status": "PENDING",
+    "processing_uuid": "6e1cba7e-1e29-482b-b147-30212a75eb50",
+    "is_chunk": false
+  },
+  {
+    "task_id": "326d603c-7879-4c07-90a9-89af826b47b8",
+    "video_name": "年货节-1mp4.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:34",
+    "status": "PENDING",
+    "processing_uuid": "1fe3a747-6125-44cf-b77b-1a3fb813e4b7",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fdda2719-9f4f-4f20-afea-fdd9ad15d0a9",
+    "video_name": "年货节-2.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:34",
+    "status": "PENDING",
+    "processing_uuid": "a25ef0d9-e971-4ef8-ac1b-86ce5ab6e18b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "4424e4fb-2ab8-473b-8992-beb89c76dda4",
+    "video_name": "三八-1.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:34",
+    "status": "PENDING",
+    "processing_uuid": "5ab47c14-9029-4964-b596-b5cfa1da2f46",
+    "is_chunk": false
+  },
+  {
+    "task_id": "4d78284f-17fe-421a-ade4-b29eadb2fea0",
+    "video_name": "三八.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:34",
+    "status": "PENDING",
+    "processing_uuid": "a338c33b-8aa5-45b1-9ee9-2d2f08e14e1d",
+    "is_chunk": false
+  },
+  {
+    "task_id": "33115755-ac6d-48bf-9104-39c8be356b7a",
+    "video_name": "视频13-NO.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:34",
+    "status": "PENDING",
+    "processing_uuid": "eb0c2a3b-c77d-4728-a390-3929f34197d4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8477e016-03e5-429e-952e-65f1bddd3733",
+    "video_name": "视频14.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:34",
+    "status": "PENDING",
+    "processing_uuid": "788f63bd-8dcc-47d3-a356-18110396d928",
+    "is_chunk": false
+  },
+  {
+    "task_id": "a92340e6-e5a5-4d56-9036-a4fd10004aca",
+    "video_name": "视频15-NO.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:34",
+    "status": "PENDING",
+    "processing_uuid": "e81a4f71-ebc5-4b84-af7f-f3dc2c263de4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ae79ec92-c267-4252-bfea-bd46f3baffa8",
+    "video_name": "视频16.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:37",
+    "status": "PENDING",
+    "processing_uuid": "618ff7da-8620-46f6-9e0a-f57a9e92ce04",
+    "is_chunk": false
+  },
+  {
+    "task_id": "0708337a-619a-4f6e-97a3-f08c6e40f36f",
+    "video_name": "双十二提前-次抛.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:37",
+    "status": "PENDING",
+    "processing_uuid": "7cb89fd1-330b-4763-9289-14db318350c4",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ecb3b8cd-5762-4075-8612-8ecd896429e5",
+    "video_name": "无机制 次抛.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:37",
+    "status": "PENDING",
+    "processing_uuid": "40b029eb-7ccf-4cd3-a8ee-a5505cd202d3",
+    "is_chunk": false
+  },
+  {
+    "task_id": "4c65f3ed-8049-4045-8f55-ce71de0a8ebf",
+    "video_name": "盈润次抛_成分介绍.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:37",
+    "status": "PENDING",
+    "processing_uuid": "cb62f2de-8585-4cb5-bfff-61b55189edcc",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8321adda-f375-4070-83b0-04d45de322dd",
+    "video_name": "盈润次抛.MP4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:37",
+    "status": "PENDING",
+    "processing_uuid": "dee4aa78-bfb2-4934-b884-62bfd2557550",
+    "is_chunk": false
+  },
+  {
+    "task_id": "17bd4a2c-1c8c-4cf2-8468-be4c36f2d511",
+    "video_name": "盈润次抛2改.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:37",
+    "status": "PENDING",
+    "processing_uuid": "d8c4dc9e-45bc-41c2-9765-06141e244f8f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d6f7a933-d141-45c1-ad7a-94a8aae05084",
+    "video_name": "盈润次抛成分2.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:37",
+    "status": "PENDING",
+    "processing_uuid": "08ab4005-f3de-44b0-87ab-fbf842921689",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e72766bc-38c9-4e2f-b1bb-560b4b4a742b",
+    "video_name": "盈润次抛赋能.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:39",
+    "status": "PENDING",
+    "processing_uuid": "8b88c4a3-6bac-4a42-8aa1-6dc81bb49a88",
+    "is_chunk": false
+  },
+  {
+    "task_id": "52a01014-6a90-4ac4-a099-740e10321b02",
+    "video_name": "盈润次抛功效.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:39",
+    "status": "PENDING",
+    "processing_uuid": "92609b44-338e-4278-984b-53dfb7fc3299",
+    "is_chunk": false
+  },
+  {
+    "task_id": "342a37f8-75ce-4cdd-ba8c-42558ff42670",
+    "video_name": "盈润次抛机制3月26日.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:39",
+    "status": "PENDING",
+    "processing_uuid": "db02d432-2b20-47a4-93ac-b484863a22f2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "4b8b509d-0ca3-40c4-88eb-782693b2cc32",
+    "video_name": "盈润次抛机制0401.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:39",
+    "status": "PENDING",
+    "processing_uuid": "9b21da1c-0db5-4236-9233-44468886a6d1",
+    "is_chunk": false
+  },
+  {
+    "task_id": "ada50231-ca6c-4d44-8a5f-d82c5931a7e9",
+    "video_name": "盈润次抛千川-年货节.mp4",
+    "knowledge_base_id": "683fc65dc8a9537d9d2102af",
+    "brand_model": "人源活力鎏金次抛",
+    "start_time": "2025-06-04 05:21:39",
+    "status": "PENDING",
+    "processing_uuid": "e3ca156c-c0b2-49dd-a843-5ffa07f9e09e",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6e86d656-7fba-4700-b3f8-fd0ba896c498",
+    "video_name": "聚源工厂-1.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:23:50",
+    "status": "PENDING",
+    "processing_uuid": "3df89255-0c9b-43b5-8138-9ca94841bfb5",
+    "is_chunk": false
+  },
+  {
+    "task_id": "5862ac1e-7713-4da9-ae57-f944a7e7e434",
+    "video_name": "聚源工厂-2.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:23:50",
+    "status": "PENDING",
+    "processing_uuid": "5d7d3b0a-092a-4d85-b47a-6db2feabdb4f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "b5f61fbe-3531-4b5c-a607-44059bbc6c27",
+    "video_name": "聚源工厂-3.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:23:50",
+    "status": "PENDING",
+    "processing_uuid": "d6079222-5013-4273-a572-70a68aa5f384",
+    "is_chunk": false
+  },
+  {
+    "task_id": "d780237f-df18-47e1-9793-4c0df44054df",
+    "video_name": "聚源工厂.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:23:50",
+    "status": "PENDING",
+    "processing_uuid": "c2c2c4df-4bde-464a-871a-6774f2523df7",
+    "is_chunk": false
+  },
+  {
+    "task_id": "3f2e2796-e7e9-4c39-a335-0fff4fae57d0",
+    "video_name": "聚源介绍.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:23:50",
+    "status": "PENDING",
+    "processing_uuid": "c54ac0bf-b6ce-4125-8624-735b3f442ef2",
+    "is_chunk": false
+  },
+  {
+    "task_id": "8190e2e3-0ee3-47b8-9f0c-86bc53dda07e",
+    "video_name": "聚源生物.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:23:50",
+    "status": "PENDING",
+    "processing_uuid": "9135df86-4aa5-447e-9d46-8cac6045f233",
+    "is_chunk": false
+  },
+  {
+    "task_id": "e5a05640-1b30-4965-b16a-acf35c9564f3",
+    "video_name": "聚源医疗.mp4",
+    "knowledge_base_id": "683fc6ddc8a9537d9d21098f",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:23:50",
+    "status": "PENDING",
+    "processing_uuid": "ab4188fe-681a-4e48-8111-be30531ae3db",
+    "is_chunk": false
+  },
+  {
+    "task_id": "39fa30d5-45d6-4420-b535-21128499ed77",
+    "video_name": "聚源工厂-1.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:19",
+    "status": "PENDING",
+    "processing_uuid": "bfb8774f-e082-442f-9553-88163f800685",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cafd9210-f0fe-4654-8ea7-191e6f3745dd",
+    "video_name": "聚源工厂-2.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:19",
+    "status": "PENDING",
+    "processing_uuid": "a4fcb3ec-b3b1-4462-87f6-2817449a0be9",
+    "is_chunk": false
+  },
+  {
+    "task_id": "cb90a14d-f487-4ccd-8092-c9904e1d86e0",
+    "video_name": "聚源工厂-3.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:19",
+    "status": "PENDING",
+    "processing_uuid": "4be0fdba-3f36-4ffc-974c-cd21d69025a0",
+    "is_chunk": false
+  },
+  {
+    "task_id": "657396c2-4f62-429b-95de-6aad6448a4a9",
+    "video_name": "聚源工厂.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:19",
+    "status": "PENDING",
+    "processing_uuid": "5bd7aa08-7933-4b49-ac6f-289f734e0013",
+    "is_chunk": false
+  },
+  {
+    "task_id": "fed6fab1-8747-4b0f-b154-d868b14ce362",
+    "video_name": "聚源介绍.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:19",
+    "status": "PENDING",
+    "processing_uuid": "8b2ce4a2-de82-4012-a6b1-34eeeb54337b",
+    "is_chunk": false
+  },
+  {
+    "task_id": "7b88266a-0395-4108-af24-08282f8317e0",
+    "video_name": "聚源生物.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:19",
+    "status": "PENDING",
+    "processing_uuid": "b46a5e1a-a091-47d4-a167-3b9873df4a13",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6a1b4821-c8b5-4e99-893c-455f852696eb",
+    "video_name": "聚源医疗.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:20",
+    "status": "PENDING",
+    "processing_uuid": "d2efc26d-cdcb-488c-925c-f72361d9dd0f",
+    "is_chunk": false
+  },
+  {
+    "task_id": "6e66d8f3-f426-4d9f-963d-f3087cf33fab",
+    "video_name": "冻干球可视化-1.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:21",
+    "status": "PENDING",
+    "processing_uuid": "0295db96-9a4b-400a-b423-c084f85babd1",
+    "is_chunk": false
+  },
+  {
+    "task_id": "9429752f-20f4-42f3-8698-62c05196a5cb",
+    "video_name": "冻干球可视化-2.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:21",
+    "status": "PENDING",
+    "processing_uuid": "e13ba2b4-151f-470a-893e-eadc60489c58",
+    "is_chunk": false
+  },
+  {
+    "task_id": "257deb74-f547-46df-b950-4ddba8b55b74",
+    "video_name": "胶原可视化.mp4",
+    "knowledge_base_id": "683fc6cbc8a9537d9d210963",
+    "brand_model": "人源活力",
+    "start_time": "2025-06-04 05:25:21",
+    "status": "PENDING",
+    "processing_uuid": "c16b4981-5096-4787-9d31-bc9e53c88182",
+    "is_chunk": false
   }
 ]

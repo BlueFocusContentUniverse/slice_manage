@@ -56,10 +56,8 @@ class VideoAnalyzer:
                 api_key=api_key,
                 base_url=self.config['api_base_url'],
                 http_client=httpx.Client(
-                proxies={
-                    "http://": f"http://172.22.93.27:1081",
-                    "https://": f"http://172.22.93.27:1081"
-                })
+                    proxy="http://172.22.93.27:1081"
+                )
             )
         except Exception as e:
             self.logger.error(f"API 客户端初始化失败: {str(e)}")

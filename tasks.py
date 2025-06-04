@@ -141,6 +141,33 @@ class VideoProcessorTask(Task):
             except Exception as e:
                 logger.error(f"释放文件锁失败: {e}")
 
+    def get_relative_path(self, absolute_path: str) -> str:
+        """
+        将绝对路径转换为相对路径
+        
+        Args:
+            absolute_path: 绝对路径，如 /home/data/ai_mcn/video_output/slice/xxx.mp4
+            
+        Returns:
+            str: 相对路径，如 video_output/slice/xxx.mp4
+        """
+        try:
+            # 查找 video_output 在路径中的位置
+            if 'video_output' in absolute_path:
+                # 找到 video_output 的起始位置
+                video_output_index = absolute_path.find('video_output')
+                # 返回从 video_output 开始的相对路径
+                relative_path = absolute_path[video_output_index:]
+                logger.info(f"转换路径: {absolute_path} -> {relative_path}")
+                return relative_path
+            else:
+                # 如果路径中没有 video_output，返回文件名
+                logger.warning(f"路径中未找到 video_output: {absolute_path}")
+                return os.path.basename(absolute_path)
+        except Exception as e:
+            logger.error(f"转换相对路径失败: {e}")
+            return os.path.basename(absolute_path)
+
 @shared_task(bind=True, base=VideoProcessorTask)
 def process_video_task(
     self, 
@@ -327,7 +354,7 @@ def process_video_task(
                 asyncio.run(kb_handler.create_data(
                     collection_id=dataset_id,
                     question=f"{analysis_result.analysis_info['analysis_result']}\n\n{file_path}",
-                    answer=os.path.abspath(slice_path)
+                    answer=self.get_relative_path(slice_path)
                 ))
             
             # 更新处理状态

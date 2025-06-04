@@ -13,6 +13,7 @@ logger = logging.getLogger(__name__)
 # 获取当前工作目录
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+
 # Redis配置
 REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
 REDIS_PASSWORD = os.environ.get('REDIS_PASSWORD', "Bfg@usr")
