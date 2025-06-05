@@ -125,6 +125,46 @@ class VideoSlicer:
                 
                 # 创建包含整个视频的slice_info
                 video_name = Path(video_path).stem
+                
+                # 构建输出路径，与正常分片逻辑保持一致
+                output_path = os.path.join(
+                    self.config.slice_config['output_dir'],
+                    os.path.basename(os.path.dirname(video_path)),
+                    f"{video_name}_segment_1.mp4"
+                )
+                os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                
+                # 复制原视频到输出路径
+                print(f"复制原视频到: {output_path}")
+                try:
+                    # 使用 ffmpeg 复制视频，确保格式一致性
+                    ffmpeg_cmd = [
+                        'ffmpeg',
+                        '-i', video_path,
+                        '-c', 'copy',  # 直接复制，不重新编码
+                        '-y',
+                        output_path
+                    ]
+                    
+                    result = subprocess.run(
+                        ffmpeg_cmd,
+                        capture_output=True,
+                        text=False,
+                        check=True
+                    )
+                    
+                    stdout = result.stdout.decode('utf-8', errors='replace') if result.stdout else ""
+                    stderr = result.stderr.decode('utf-8', errors='replace') if result.stderr else ""
+                    
+                    self.logger.debug(f"FFmpeg stdout: {stdout}")
+                    if stderr:
+                        self.logger.debug(f"FFmpeg stderr: {stderr}")
+                        
+                except subprocess.CalledProcessError as e:
+                    stderr = e.stderr.decode('utf-8', errors='replace') if e.stderr else "未知错误"
+                    self.logger.error(f"复制视频失败: {stderr}")
+                    raise
+                
                 self.slice_info = {
                     "original_video": video_path,
                     "total_duration": duration,
@@ -137,7 +177,7 @@ class VideoSlicer:
                         "duration": duration,
                         "start_frame": 0,
                         "end_frame": frame_count,
-                        "output_path": video_path  # 直接使用原视频路径
+                        "output_path": output_path  # 使用输出目录下的路径
                     }]
                 }
                 

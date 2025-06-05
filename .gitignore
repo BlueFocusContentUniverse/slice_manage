@@ -76,5 +76,6 @@ output_mask/
 RTL-Inpainting/imgs/
 RTL-Inpainting/output/
 RTL-Inpainting/input_mask/
+data/*
 
 config.yaml
